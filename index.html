@@ -1,0 +1,2860 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+<meta name="google-site-verification" content="YZfso6AOmfPNStEfBdXmCL7Dt61f-SJ9B7NLFHlQKp0" />
+
+<link rel="icon" type="image/png" href="favicon.png">
+
+<title>Desi Taste Land | Artisanal Pakistani Heritage</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "secondary": "#735c00",
+                    "on-secondary": "#ffffff",
+                    "inverse-surface": "#303031",
+                    "surface-container-high": "#e9e8e7",
+                    "tertiary-container": "#1d1d03",
+                    "on-surface": "#1b1c1c",
+                    "surface-container-highest": "#e3e2e2",
+                    "on-surface-variant": "#444748",
+                    "on-secondary-container": "#745c00",
+                    "surface-container-lowest": "#ffffff",
+                    "on-secondary-fixed": "#241a00",
+                    "on-tertiary-container": "#868660",
+                    "tertiary-fixed-dim": "#cac99f",
+                    "primary": "#000000",
+                    "surface-container": "#efeded",
+                    "tertiary-fixed": "#e6e5b9",
+                    "inverse-primary": "#c9c6c5",
+                    "surface-dim": "#dbdad9",
+                    "on-tertiary-fixed": "#1d1d03",
+                    "on-primary-container": "#858383",
+                    "on-secondary-fixed-variant": "#574500",
+                    "on-error-container": "#93000a",
+                    "tertiary": "#000000",
+                    "on-error": "#ffffff",
+                    "secondary-fixed-dim": "#e9c349",
+                    "primary-fixed-dim": "#c9c6c5",
+                    "error": "#ba1a1a",
+                    "secondary-fixed": "#ffe088",
+                    "outline": "#747878",
+                    "on-primary-fixed": "#1c1b1b",
+                    "primary-fixed": "#e5e2e1",
+                    "on-background": "#1b1c1c",
+                    "surface-variant": "#e3e2e2",
+                    "background": "#fbf9f9",
+                    "surface": "#fbf9f9",
+                    "on-primary-fixed-variant": "#474646",
+                    "surface-bright": "#fbf9f9",
+                    "secondary-container": "#fed65b",
+                    "surface-tint": "#5f5e5e",
+                    "surface-container-low": "#f5f3f3",
+                    "error-container": "#ffdad6",
+                    "inverse-on-surface": "#f2f0f0",
+                    "on-primary": "#ffffff",
+                    "primary-container": "#1c1b1b",
+                    "on-tertiary": "#ffffff",
+                    "on-tertiary-fixed-variant": "#484828",
+                    "outline-variant": "#c4c7c7"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "margin-mobile": "20px",
+                    "container-max": "1280px",
+                    "margin-desktop": "64px",
+                    "base": "8px",
+                    "gutter": "24px"
+            },
+            "fontFamily": {
+                    "headline-lg": ["Playfair Display", "serif"],
+                    "body-md": ["Hanken Grotesk", "sans-serif"],
+                    "body-lg": ["Hanken Grotesk", "sans-serif"],
+                    "label-sm": ["Hanken Grotesk", "sans-serif"],
+                    "display-lg": ["Playfair Display", "serif"],
+                    "headline-lg-mobile": ["Playfair Display", "serif"],
+                    "label-md": ["Hanken Grotesk", "sans-serif"]
+            },
+            "fontSize": {
+                    "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "600"}],
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .luxury-shadow {
+            box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.05);
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .gold-border {
+            border: 1px solid #D4AF37;
+        }
+        .text-gold {
+            color: #D4AF37;
+        }
+        .bg-gold {
+            background-color: #D4AF37;
+        }
+        /* Drawer & Modal animation */
+        .drawer-overlay {
+            transition: opacity 0.3s ease-in-out;
+        }
+        .drawer-content {
+            transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .modal-content {
+            transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+        }
+        .toast-notification {
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md overflow-x-hidden relative">
+
+<!-- Toast Notification Container -->
+<div id="toast-container" class="fixed top-20 right-5 z-50 flex flex-col gap-3 pointer-events-none"></div>
+
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-40 bg-background/95 backdrop-blur-md shadow-sm border-b border-outline-variant/30 transition-all duration-200 h-16" id="navbar">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex justify-between items-center h-full">
+<div class="flex items-center gap-3 md:gap-8">
+<button onclick="openSideMenuDrawer()" class="flex items-center justify-center p-2 rounded-full text-primary hover:text-secondary hover:bg-black/5 transition-all active:scale-95" title="Open Main Menu & Orders">
+  <span class="material-symbols-outlined text-2xl font-bold">menu</span>
+</button>
+<a class="font-headline-lg text-primary tracking-tight text-xl md:text-2xl font-bold flex items-center gap-2" href="#">
+  <img src="assets/logo/logo.jpg" alt="Desi Taste Land" class="h-12 w-12 rounded-full object-cover border-2 border-secondary shadow-sm" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline'">
+  <span class="text-secondary font-serif" style="display:none">🌿</span>
+  <span class="hidden md:inline">Desi Taste Land</span>
+</a>
+<div class="hidden md:flex gap-8">
+<a class="font-body-md text-label-md uppercase tracking-widest text-secondary font-bold border-b-2 border-secondary pb-1" href="#">Home</a>
+<a class="font-body-md text-label-md uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors duration-300" href="#products">Products</a>
+<a class="font-body-md text-label-md uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors duration-300" href="#deals">Deals</a>
+<a class="font-body-md text-label-md uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors duration-300" href="#categories">Categories</a>
+<a class="font-body-md text-label-md uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors duration-300" href="#about">About Us</a>
+<a class="font-body-md text-label-md uppercase tracking-widest text-on-surface-variant hover:text-primary transition-colors duration-300" href="#contact">Contact</a>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<button onclick="toggleSearchModal()" class="material-symbols-outlined text-primary hover:text-secondary transition-all active:scale-95" title="Search products">search</button>
+<button onclick="openCartDrawer()" class="relative group focus:outline-none" title="View Cart">
+<span class="material-symbols-outlined text-primary group-hover:text-secondary transition-all active:scale-95">shopping_cart</span>
+<span id="cart-badge" class="absolute -top-2 -right-2 bg-secondary text-on-secondary text-[11px] font-bold w-5 h-5 flex items-center justify-center rounded-full transition-transform scale-100 shadow-md">0</span>
+</button>
+<button onclick="handleProfileClick()" class="flex items-center gap-1.5 text-primary hover:text-secondary transition-all active:scale-95" title="Account / Sign In">
+  <span class="material-symbols-outlined">person</span>
+  <span id="nav-user-name" class="hidden lg:inline text-xs font-bold text-secondary"></span>
+</button>
+<button onclick="openCheckoutModal()" class="hidden md:flex items-center gap-1 px-4 py-1.5 rounded-full bg-secondary text-white text-xs uppercase font-bold tracking-wider hover:bg-primary transition-all shadow-sm">
+  <span>Checkout</span>
+</button>
+
+<button class="md:hidden material-symbols-outlined text-primary" onclick="toggleMobileMenu()">menu</button>
+</div>
+</div>
+</nav>
+
+<!-- Main Side Menu & Orders Drawer -->
+<div id="side-menu-drawer-overlay" class="fixed inset-0 bg-black/60 z-50 hidden opacity-0 transition-opacity backdrop-blur-sm flex justify-start">
+  <div id="side-menu-drawer-content" class="bg-white w-full max-w-md h-full flex flex-col justify-between shadow-2xl transition-transform duration-300 -translate-x-full overflow-hidden">
+    
+    <!-- Drawer Header -->
+    <div class="bg-primary text-white p-6 flex justify-between items-center border-b border-gray-800">
+      <div class="flex items-center gap-3">
+        <img src="assets/logo/logo.jpg" alt="Desi Taste Land" class="h-10 w-10 rounded-full object-cover border border-secondary" onerror="this.style.display='none'">
+        <div>
+          <span class="text-xs uppercase tracking-widest text-secondary font-bold block">Desi Taste Land</span>
+          <h3 class="font-headline-lg text-xl font-bold">Menu & My Orders</h3>
+        </div>
+      </div>
+      <button onclick="closeSideMenuDrawer()" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-colors">
+        <span class="material-symbols-outlined text-sm">close</span>
+      </button>
+    </div>
+
+    <!-- Quick Navigation Links -->
+    <div class="bg-surface-container-low px-6 py-3 border-b flex justify-between text-xs font-bold uppercase tracking-wider overflow-x-auto hide-scrollbar gap-4">
+      <a href="#" onclick="closeSideMenuDrawer()" class="text-secondary hover:text-primary transition-colors whitespace-nowrap">Home</a>
+      <a href="#products" onclick="closeSideMenuDrawer()" class="text-gray-600 hover:text-primary transition-colors whitespace-nowrap">Products</a>
+      <a href="#deals" onclick="closeSideMenuDrawer()" class="text-gray-600 hover:text-primary transition-colors whitespace-nowrap">Deals</a>
+      <a href="#categories" onclick="closeSideMenuDrawer()" class="text-gray-600 hover:text-primary transition-colors whitespace-nowrap">Categories</a>
+      <a href="#about" onclick="closeSideMenuDrawer()" class="text-gray-600 hover:text-primary transition-colors whitespace-nowrap">About Us</a>
+      <a href="#contact" onclick="closeSideMenuDrawer()" class="text-gray-600 hover:text-primary transition-colors whitespace-nowrap">Contact</a>
+    </div>
+
+    <!-- Orders Tabs (Active Orders / Order History) -->
+    <div class="flex border-b border-gray-200 bg-white">
+      <button onclick="switchOrdersTab('active')" id="tab-active-orders-btn" class="flex-1 py-3 text-xs font-bold uppercase tracking-wider text-secondary border-b-2 border-secondary transition-all flex items-center justify-center gap-1.5">
+        <span class="material-symbols-outlined text-sm">local_shipping</span>
+        <span>Active Orders</span>
+        <span id="active-orders-count-badge" class="bg-secondary text-white text-[10px] px-2 py-0.5 rounded-full font-bold">0</span>
+      </button>
+      <button onclick="switchOrdersTab('history')" id="tab-order-history-btn" class="flex-1 py-3 text-xs font-bold uppercase tracking-wider text-gray-400 border-b-2 border-transparent hover:text-gray-600 transition-all flex items-center justify-center gap-1.5">
+        <span class="material-symbols-outlined text-sm">history</span>
+        <span>Order History</span>
+      </button>
+    </div>
+
+    <!-- Scrollable Orders List Area -->
+    <div class="p-6 flex-grow overflow-y-auto space-y-6 bg-surface-container-lowest" id="drawer-orders-container">
+      <!-- Active Orders View -->
+      <div id="view-active-orders" class="space-y-4"></div>
+
+      <!-- Order History View -->
+      <div id="view-order-history" class="space-y-4 hidden"></div>
+    </div>
+
+    <!-- Drawer Footer -->
+    <div class="p-4 border-t bg-white flex justify-between items-center text-xs">
+      <span class="text-gray-500 font-medium">Customer Support:</span>
+      <a href="https://wa.me/923070016113" target="_blank" class="text-green-600 font-bold flex items-center gap-1 hover:underline">
+        <span class="material-symbols-outlined text-sm">chat</span> WhatsApp (+92 307 0016113)
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<!-- Mobile Menu Overlay -->
+<div id="mobile-menu" class="fixed inset-0 bg-black/60 z-50 hidden backdrop-blur-sm transition-opacity">
+  <div class="bg-white w-4/5 max-w-sm h-full p-6 flex flex-col justify-between shadow-2xl">
+    <div>
+      <div class="flex justify-between items-center mb-8 border-b pb-4">
+        <span class="font-headline-lg text-lg text-primary">Desi Taste Land</span>
+        <button onclick="toggleMobileMenu()" class="material-symbols-outlined text-gray-500 hover:text-black">close</button>
+      </div>
+      <nav class="flex flex-col gap-4 font-label-md uppercase tracking-wider text-sm">
+        <a href="#" onclick="toggleMobileMenu()" class="text-secondary font-bold py-2">Home</a>
+        <a href="#products" onclick="toggleMobileMenu()" class="text-gray-700 py-2">Products</a>
+        <a href="#categories" onclick="toggleMobileMenu()" class="text-gray-700 py-2">Categories</a>
+        <a href="#about" onclick="toggleMobileMenu()" class="text-gray-700 py-2">About Us</a>
+        <a href="#contact" onclick="toggleMobileMenu()" class="text-gray-700 py-2">Contact</a>
+        <button onclick="toggleMobileMenu(); openSideMenuDrawer();" class="text-left text-secondary font-bold py-2 flex items-center gap-2 border-t pt-3">
+          <span class="material-symbols-outlined text-base">receipt_long</span> My Orders & History
+        </button>
+      </nav>
+    </div>
+    <div class="border-t pt-4">
+      <button onclick="toggleMobileMenu(); openCartDrawer();" class="w-full py-3 bg-primary text-white rounded-full font-label-md uppercase tracking-wider text-xs flex items-center justify-center gap-2">
+        <span class="material-symbols-outlined text-sm">shopping_cart</span>
+        View Cart (<span id="mobile-cart-count">0</span>)
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- 1. Hero Section Slider -->
+<section class="w-full bg-surface-container-lowest pt-16 relative overflow-hidden">
+  <div class="w-full relative group" id="hero-carousel-container">
+    
+    <!-- Slides Container -->
+    <div class="relative w-full overflow-hidden" style="min-height: 220px; max-height: 600px;">
+      <div id="hero-slider" class="flex transition-transform duration-700 ease-in-out w-full">
+        <div class="w-full flex-shrink-0">
+          <img src="assets/hero/banner_tea.jpg" alt="Tea Patti Banner" class="w-full h-auto block object-cover max-h-[600px]">
+        </div>
+        <div class="w-full flex-shrink-0">
+          <img src="assets/hero/banner_honey.jpg" alt="Pure Honey Banner" class="w-full h-auto block object-cover max-h-[600px]">
+        </div>
+        <div class="w-full flex-shrink-0">
+          <img src="assets/hero/banner_olive.jpg" alt="Olive Oil Banner" class="w-full h-auto block object-cover max-h-[600px]">
+        </div>
+        <div class="w-full flex-shrink-0">
+          <img src="assets/hero/banner_achar.jpg" alt="Traditional Achar Banner" class="w-full h-auto block object-cover max-h-[600px]">
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button onclick="prevHeroSlide()" class="absolute left-3 md:left-6 top-1/2 -translate-y-1/2 w-9 h-9 md:w-12 md:h-12 rounded-full bg-black/40 hover:bg-black/80 text-white flex items-center justify-center backdrop-blur-md opacity-80 group-hover:opacity-100 transition-all active:scale-95 shadow-lg z-20" title="Previous Banner">
+      <span class="material-symbols-outlined text-xl md:text-2xl">chevron_left</span>
+    </button>
+    <button onclick="nextHeroSlide()" class="absolute right-3 md:right-6 top-1/2 -translate-y-1/2 w-9 h-9 md:w-12 md:h-12 rounded-full bg-black/40 hover:bg-black/80 text-white flex items-center justify-center backdrop-blur-md opacity-80 group-hover:opacity-100 transition-all active:scale-95 shadow-lg z-20" title="Next Banner">
+      <span class="material-symbols-outlined text-xl md:text-2xl">chevron_right</span>
+    </button>
+
+    <!-- Pagination Dots -->
+    <div class="absolute bottom-3 md:bottom-5 left-1/2 -translate-x-1/2 flex items-center gap-2.5 z-20 bg-black/30 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+      <button onclick="goToHeroSlide(0)" class="hero-dot w-3 h-3 rounded-full bg-white transition-all shadow-sm" title="Slide 1"></button>
+      <button onclick="goToHeroSlide(1)" class="hero-dot w-3 h-3 rounded-full bg-white/40 hover:bg-white/70 transition-all shadow-sm" title="Slide 2"></button>
+      <button onclick="goToHeroSlide(2)" class="hero-dot w-3 h-3 rounded-full bg-white/40 hover:bg-white/70 transition-all shadow-sm" title="Slide 3"></button>
+      <button onclick="goToHeroSlide(3)" class="hero-dot w-3 h-3 rounded-full bg-white/40 hover:bg-white/70 transition-all shadow-sm" title="Slide 4"></button>
+    </div>
+
+  </div>
+</section>
+
+<!-- 2. Best Sellers Slider -->
+<section class="py-24 bg-surface" id="best-sellers">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-4">
+<div>
+<h2 class="font-headline-lg text-headline-lg mb-2 text-primary">Our Best Sellers</h2>
+<p class="text-on-surface-variant font-body-md max-w-xl">Our Best Sellers combine the authentic taste of Mixed Pickle, the richness of Premium Olive Oil, and the refreshing aroma of Tea. Crafted to bring purity, quality, and traditional flavor to every home.</p>
+</div>
+<div class="flex gap-4 self-end">
+<button onclick="scrollSlider('seller-slider', -350)" class="w-12 h-12 rounded-full border border-outline-variant flex items-center justify-center hover:bg-primary hover:text-white transition-all shadow-sm active:scale-95">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button onclick="scrollSlider('seller-slider', 350)" class="w-12 h-12 rounded-full border border-outline-variant flex items-center justify-center hover:bg-primary hover:text-white transition-all shadow-sm active:scale-95">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+<div id="seller-slider" class="flex gap-gutter overflow-x-auto hide-scrollbar pb-8 snap-x scroll-smooth">
+<!-- Best Seller Card 1 -->
+<div class="min-w-[300px] md:min-w-[350px] snap-start bg-white rounded-xl luxury-shadow overflow-hidden group flex flex-col justify-between border border-gray-100">
+<div class="relative h-80 overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Traditional Mixed Pickle" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9Bq7VhysIK_HeKzpMzdF0R4d8IdloQBk8mbbTYmYMHddORq-4gJO3uFomZh1ByGBHqgBX8K3pFvmUuUR2OrYyTiPlMmp_lbnvwUhQ8pU4rMIZHXiZeK3pG44cran8N5g0aDDkN5y3ooLHme7cN_ot6XpsG7ysYNj30YhzsSBce7fSuyI87jyOtnaw33Pus9Zmhk6c14MsTF6BTWWMMUVCqDWLeGHDtCaseL__F_MizKWtkYC4d0gF6M7d0xBnfxMtjjHcPukpHpA6">
+<button class="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/80 backdrop-blur shadow-sm flex items-center justify-center text-primary hover:text-red-500 transition-colors" onclick="toggleFavorite(this)">
+<span class="material-symbols-outlined text-[20px]" data-icon="favorite">favorite</span>
+</button>
+<span class="absolute top-4 left-4 bg-secondary text-white text-[10px] uppercase font-bold tracking-widest px-3 py-1 rounded-full shadow-md">Best Seller</span>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+  <h3 class="font-headline-lg text-xl mb-1 text-primary">Traditional Mixed Pickle</h3>
+  <p class="text-xs text-gray-500 mb-2">Authentic Heritage Spices (500g)</p>
+  <p class="text-secondary font-bold text-lg mb-4">Rs. 350</p>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<button onclick="addToCart({id: 'bs-1', title: 'Traditional Mixed Pickle', price: 350, size: '500g', image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA9Bq7VhysIK_HeKzpMzdF0R4d8IdloQBk8mbbTYmYMHddORq-4gJO3uFomZh1ByGBHqgBX8K3pFvmUuUR2OrYyTiPlMmp_lbnvwUhQ8pU4rMIZHXiZeK3pG44cran8N5g0aDDkN5y3ooLHme7cN_ot6XpsG7ysYNj30YhzsSBce7fSuyI87jyOtnaw33Pus9Zmhk6c14MsTF6BTWWMMUVCqDWLeGHDtCaseL__F_MizKWtkYC4d0gF6M7d0xBnfxMtjjHcPukpHpA6'})" class="py-3 px-3 rounded-full border border-primary text-primary font-label-md hover:bg-primary hover:text-white transition-all text-xs uppercase tracking-wider font-bold active:scale-95">Add to Cart</button>
+<button onclick="buyNow({id: 'bs-1', title: 'Traditional Mixed Pickle', price: 350, size: '500g', image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA9Bq7VhysIK_HeKzpMzdF0R4d8IdloQBk8mbbTYmYMHddORq-4gJO3uFomZh1ByGBHqgBX8K3pFvmUuUR2OrYyTiPlMmp_lbnvwUhQ8pU4rMIZHXiZeK3pG44cran8N5g0aDDkN5y3ooLHme7cN_ot6XpsG7ysYNj30YhzsSBce7fSuyI87jyOtnaw33Pus9Zmhk6c14MsTF6BTWWMMUVCqDWLeGHDtCaseL__F_MizKWtkYC4d0gF6M7d0xBnfxMtjjHcPukpHpA6'})" class="py-3 px-3 rounded-full bg-primary text-white font-label-md hover:bg-secondary transition-all text-xs uppercase tracking-wider font-bold active:scale-95">Buy Now</button>
+</div>
+</div>
+</div>
+
+<!-- Best Seller Card 2 -->
+<div class="min-w-[300px] md:min-w-[350px] snap-start bg-white rounded-xl luxury-shadow overflow-hidden group flex flex-col justify-between border border-gray-100">
+<div class="relative h-80 overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Pure Olive Oil" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCipfOKVXoicHx2k7cHlNZeyck38aFZZIkJF4oAghSi6VIQrpV3ZW5Xl9kM8ZKmqUB5OghRJuLs5bSDG4RwuT9V5_IM5pEFhFkwXaIt62wvqYJQ13FZtbWT0Ro8NyCVtlBEs1HcN6QpC6fZ8J3mUiw1jQwfhq6og6xePq_XsSPnD6aI2r4orCFMSyd-0gvxeg349Xwsptp02zDjAJH1K6IjUgKIi4lREVQAAwZ-t0FnbK_n2yMhh0-ceGwTV228V1Ihtrbi0WJsAYXP">
+<button class="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/80 backdrop-blur shadow-sm flex items-center justify-center text-primary hover:text-red-500 transition-colors" onclick="toggleFavorite(this)">
+<span class="material-symbols-outlined text-[20px]" data-icon="favorite">favorite</span>
+</button>
+<span class="absolute top-4 left-4 bg-secondary text-white text-[10px] uppercase font-bold tracking-widest px-3 py-1 rounded-full shadow-md">Popular</span>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+  <h3 class="font-headline-lg text-xl mb-1 text-primary">Pure Olive Oil</h3>
+  <p class="text-xs text-gray-500 mb-2">Cold Pressed Extra Virgin (112ml)</p>
+  <p class="text-secondary font-bold text-lg mb-4">Rs. 650</p>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<button onclick="addToCart({id: 'bs-2', title: 'Pure Olive Oil', price: 650, size: '112ml', image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCipfOKVXoicHx2k7cHlNZeyck38aFZZIkJF4oAghSi6VIQrpV3ZW5Xl9kM8ZKmqUB5OghRJuLs5bSDG4RwuT9V5_IM5pEFhFkwXaIt62wvqYJQ13FZtbWT0Ro8NyCVtlBEs1HcN6QpC6fZ8J3mUiw1jQwfhq6og6xePq_XsSPnD6aI2r4orCFMSyd-0gvxeg349Xwsptp02zDjAJH1K6IjUgKIi4lREVQAAwZ-t0FnbK_n2yMhh0-ceGwTV228V1Ihtrbi0WJsAYXP'})" class="py-3 px-3 rounded-full border border-primary text-primary font-label-md hover:bg-primary hover:text-white transition-all text-xs uppercase tracking-wider font-bold active:scale-95">Add to Cart</button>
+<button onclick="buyNow({id: 'bs-2', title: 'Pure Olive Oil', price: 650, size: '112ml', image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCipfOKVXoicHx2k7cHlNZeyck38aFZZIkJF4oAghSi6VIQrpV3ZW5Xl9kM8ZKmqUB5OghRJuLs5bSDG4RwuT9V5_IM5pEFhFkwXaIt62wvqYJQ13FZtbWT0Ro8NyCVtlBEs1HcN6QpC6fZ8J3mUiw1jQwfhq6og6xePq_XsSPnD6aI2r4orCFMSyd-0gvxeg349Xwsptp02zDjAJH1K6IjUgKIi4lREVQAAwZ-t0FnbK_n2yMhh0-ceGwTV228V1Ihtrbi0WJsAYXP'})" class="py-3 px-3 rounded-full bg-primary text-white font-label-md hover:bg-secondary transition-all text-xs uppercase tracking-wider font-bold active:scale-95">Buy Now</button>
+</div>
+</div>
+</div>
+
+<!-- Best Seller Card 3 -->
+<div class="min-w-[300px] md:min-w-[350px] snap-start bg-white rounded-xl luxury-shadow overflow-hidden group flex flex-col justify-between border border-gray-100">
+<div class="relative h-80 overflow-hidden bg-surface-container-low">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Tea" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAop5DdPttZe1xyyfOJxaWSs09N43By5OwGjcvN3o7Nx9BolwkDyl9tKDu6YKmW75p6ZWox1HkAagwC3Ykr53CrOapb1WPNzhKfeIq-OVi-FiN67JGhm-Ln9UzkyNEVPoftVkb__eSlFiCpYRLYGD8Ta97S2YOQygw3czOmz8dJfV-dE1frQ_t53ikU7uyGu1BB2IVSlWXFhsu2yYSMYvUouh2zI-5BMQC28HJf3gmKr61BDGxTkb66wRYTHx0MrbFVa30p2TwrepPY">
+<button class="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/80 backdrop-blur shadow-sm flex items-center justify-center text-primary hover:text-red-500 transition-colors" onclick="toggleFavorite(this)">
+<span class="material-symbols-outlined text-[20px]" data-icon="favorite">favorite</span>
+</button>
+<span class="absolute top-4 left-4 bg-secondary text-white text-[10px] uppercase font-bold tracking-widest px-3 py-1 rounded-full shadow-md">Top Rated</span>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+  <h3 class="font-headline-lg text-xl mb-1 text-primary">Artisanal Tea (Chai Patti)</h3>
+  <p class="text-xs text-gray-500 mb-2">Rich Aroma Blend (200g)</p>
+  <p class="text-secondary font-bold text-lg mb-4">Rs. 400</p>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<button onclick="addToCart({id: 'bs-3', title: 'Artisanal Tea (Chai Patti)', price: 400, size: '200g', image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAop5DdPttZe1xyyfOJxaWSs09N43By5OwGjcvN3o7Nx9BolwkDyl9tKDu6YKmW75p6ZWox1HkAagwC3Ykr53CrOapb1WPNzhKfeIq-OVi-FiN67JGhm-Ln9UzkyNEVPoftVkb__eSlFiCpYRLYGD8Ta97S2YOQygw3czOmz8dJfV-dE1frQ_t53ikU7uyGu1BB2IVSlWXFhsu2yYSMYvUouh2zI-5BMQC28HJf3gmKr61BDGxTkb66wRYTHx0MrbFVa30p2TwrepPY'})" class="py-3 px-3 rounded-full border border-primary text-primary font-label-md hover:bg-primary hover:text-white transition-all text-xs uppercase tracking-wider font-bold active:scale-95">Add to Cart</button>
+<button onclick="buyNow({id: 'bs-3', title: 'Artisanal Tea (Chai Patti)', price: 400, size: '200g', image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAop5DdPttZe1xyyfOJxaWSs09N43By5OwGjcvN3o7Nx9BolwkDyl9tKDu6YKmW75p6ZWox1HkAagwC3Ykr53CrOapb1WPNzhKfeIq-OVi-FiN67JGhm-Ln9UzkyNEVPoftVkb__eSlFiCpYRLYGD8Ta97S2YOQygw3czOmz8dJfV-dE1frQ_t53ikU7uyGu1BB2IVSlWXFhsu2yYSMYvUouh2zI-5BMQC28HJf3gmKr61BDGxTkb66wRYTHx0MrbFVa30p2TwrepPY'})" class="py-3 px-3 rounded-full bg-primary text-white font-label-md hover:bg-secondary transition-all text-xs uppercase tracking-wider font-bold active:scale-95">Buy Now</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- 3. Categories Grid -->
+<section class="py-24 bg-surface-container-low" id="categories">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-headline-lg mb-4 text-primary">Explore Our Pantry</h2>
+<div class="w-24 h-1 bg-secondary mx-auto rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter">
+
+<!-- Category Card 1 -->
+<div class="relative h-96 group overflow-hidden rounded-xl luxury-shadow cursor-pointer" onclick="scrollToProducts('Honey')">
+<div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all duration-500 z-10"></div>
+<img class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Pure Honey" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8TQqS807SehGOkpdfxMhWGJkcPVYq2OIFofu05owhWO_HW2_lTvYuxxKVg3h2c_yn0-qKnnVGkRRo7o1edhOXEFYpBAt-r4i6SPhxoEK2Yrx9JrcVs2coaEFMfEZlg9YvQ9CGBZWTwKtW1oismY2KaP4SK1e8nbmuAvlh-LsV5XbmLAO56Wc6P2UPSSff6o-sFpMlhWrWXyVZ56jAc7kLcz_-oVhstMPx6mrbWzlZkCWyHr78LkSJS22_h3GoF3I8gQRyknNCXoXD3-k">
+<div class="absolute inset-0 z-20 flex flex-col items-center justify-center p-8 text-center">
+<h3 class="text-white font-headline-lg text-2xl mb-4 tracking-wide font-bold">Pure Honey</h3>
+<div class="h-[2px] w-12 group-hover:w-24 bg-secondary transition-all duration-500 mb-6"></div>
+<span class="text-xs uppercase tracking-widest text-white/90 bg-white/20 backdrop-blur-md px-4 py-2 rounded-full border border-white/30 font-bold group-hover:bg-secondary group-hover:border-secondary transition-all">Shop Collection &rarr;</span>
+</div>
+</div>
+
+<!-- Category Card 2 -->
+<div class="relative h-96 group overflow-hidden rounded-xl luxury-shadow cursor-pointer" onclick="scrollToProducts('Ghee')">
+<div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all duration-500 z-10"></div>
+<img class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Desi Ghee" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAshObCiHschLZtwyN_bXm4Aa-eKwF6D8nE-Ew2pIqzjhOs5FaTD48LO6OrzBX6mb606-4vqI7LS0IODI8uX17yzzQPJsLSfm_IbNWzUvQiT7O4eGh7jNevZ6h688nFKRmEqOqeafZwMkUlVOwbsL4udRgw7ijp3fUSjLXi73h_LzYYDR9XprWY-gMJPIIh5uLziHpXRyZC2Tab2XP46Qz3Q71q0wiKF2sUS6-KbpAEbZy4GXEMuzocAslxfKyiZW81tv7-0JdNx8nLnwI">
+<div class="absolute inset-0 z-20 flex flex-col items-center justify-center p-8 text-center">
+<h3 class="text-white font-headline-lg text-2xl mb-4 tracking-wide font-bold">Desi Ghee</h3>
+<div class="h-[2px] w-12 group-hover:w-24 bg-secondary transition-all duration-500 mb-6"></div>
+<span class="text-xs uppercase tracking-widest text-white/90 bg-white/20 backdrop-blur-md px-4 py-2 rounded-full border border-white/30 font-bold group-hover:bg-secondary group-hover:border-secondary transition-all">Shop Collection &rarr;</span>
+</div>
+</div>
+
+<!-- Category Card 3 -->
+<div class="relative h-96 group overflow-hidden rounded-xl luxury-shadow cursor-pointer" onclick="scrollToProducts('Pickle')">
+<div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all duration-500 z-10"></div>
+<img class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Authentic Pickles" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5Zzuo5QFdWsyfVV7cKPmb8N2RTYJINxcx3-SbL6fQ8JLxRaefjY6X4Bffg-hcse62wT1mxmO13LnOEq5mQTulU_JqCfvNzB8acLD8WznpoLpo7nSgXObnX0ibJ7HqgKgAA5SejSbbFHl84m-iyv13h0DZ7Bby00bSSrMFlByF3nTFcpv2Ut3Dn3qqKsfdkX1jbUW7jRlMtWI72sAPxdzto47RQQhYQk5G0z1fYJz_guzK1WbSO1K82o4DqH_Ay4f1HZbWpwNGrGBDL_E">
+<div class="absolute inset-0 z-20 flex flex-col items-center justify-center p-8 text-center">
+<h3 class="text-white font-headline-lg text-2xl mb-4 tracking-wide font-bold">Authentic Pickles</h3>
+<div class="h-[2px] w-12 group-hover:w-24 bg-secondary transition-all duration-500 mb-6"></div>
+<span class="text-xs uppercase tracking-widest text-white/90 bg-white/20 backdrop-blur-md px-4 py-2 rounded-full border border-white/30 font-bold group-hover:bg-secondary group-hover:border-secondary transition-all">Shop Collection &rarr;</span>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- 4. Product Grid -->
+<section class="py-24 bg-white" id="products">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<h2 class="font-headline-lg text-headline-lg mb-12 text-center text-primary">All Natural Products</h2>
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-gutter gap-y-12">
+
+<!-- Product 1: Tea -->
+<div class="group flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden border border-outline-variant/30 transition-all hover:shadow-xl hover:-translate-y-1" data-product-id="p-1">
+<div class="relative aspect-square overflow-hidden bg-surface-container-low/30">
+<img alt="Artisanal Tea" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500" src="assets/products/product_1_tea.jpg">
+<span class="absolute top-4 right-4 bg-white/90 backdrop-blur text-primary text-[11px] font-bold px-3 py-1 rounded-full shadow-sm">100% Pure</span>
+</div>
+<div class="p-8 flex flex-col flex-grow justify-between">
+<div>
+  <div class="flex justify-between items-start mb-2">
+  <h3 class="font-headline-lg text-xl text-primary font-bold">Artisanal Tea</h3>
+  <div class="flex items-center text-secondary">
+  <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="text-sm font-label-md ml-1 font-bold">4.9</span>
+  </div>
+  </div>
+  <p class="text-xs text-gray-500 mb-4">Premium blend tea leaves</p>
+</div>
+
+<div>
+  <div class="flex items-center justify-between mb-6">
+  <span class="text-2xl font-bold text-primary">Rs. 400 <span class="text-xs font-normal text-gray-500">(200g)</span></span>
+  <div class="flex items-center border border-outline rounded-full bg-white shadow-sm">
+  <button onclick="updateQty('p-1', -1)" class="w-8 h-8 flex items-center justify-center text-on-surface-variant hover:text-black font-bold active:scale-95">-</button>
+  <span id="qty-p-1" class="w-8 text-center text-sm font-bold">1</span>
+  <button onclick="updateQty('p-1', 1)" class="w-8 h-8 flex items-center justify-center text-on-surface-variant hover:text-black font-bold active:scale-95">+</button>
+  </div>
+  </div>
+
+  <div class="flex gap-3">
+  <button onclick="buyNowFromCard('p-1', 'Artisanal Tea', 400, '200g', 'assets/products/product_1_tea.jpg')" class="flex-1 py-4 bg-primary text-white rounded-full font-label-md uppercase tracking-wider text-xs font-bold hover:bg-secondary transition-all active:scale-95 shadow-md">Buy Now</button>
+  <button onclick="addToCartFromCard('p-1', 'Artisanal Tea', 400, '200g', 'assets/products/product_1_tea.jpg')" class="w-14 h-14 flex items-center justify-center rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-all active:scale-95 shadow-sm" title="Add to Cart">
+  <span class="material-symbols-outlined">shopping_cart</span>
+  </button>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- Product 2: Olive Oil -->
+<div class="group flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden border border-outline-variant/30 transition-all hover:shadow-xl hover:-translate-y-1" data-product-id="p-2">
+<div class="relative aspect-square overflow-hidden bg-surface-container-low/30">
+<img alt="Pure Olive Oil" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500" src="assets/products/product_2_olive_oil.jpg">
+<span class="absolute top-4 right-4 bg-white/90 backdrop-blur text-primary text-[11px] font-bold px-3 py-1 rounded-full shadow-sm">Cold Pressed</span>
+</div>
+<div class="p-8 flex flex-col flex-grow justify-between">
+<div>
+  <div class="flex justify-between items-start mb-2">
+  <h3 class="font-headline-lg text-xl text-primary font-bold">Pure Olive Oil</h3>
+  <div class="flex items-center text-secondary">
+  <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="text-sm font-label-md ml-1 font-bold">4.8</span>
+  </div>
+  </div>
+  <p class="text-xs text-gray-500 mb-4">Natural wellness oil</p>
+</div>
+
+<div>
+  <div class="flex items-center justify-between mb-6">
+  <span class="text-2xl font-bold text-primary">Rs. 650 <span class="text-xs font-normal text-gray-500">(112ml)</span></span>
+  <div class="flex items-center border border-outline rounded-full bg-white shadow-sm">
+  <button onclick="updateQty('p-2', -1)" class="w-8 h-8 flex items-center justify-center text-on-surface-variant hover:text-black font-bold active:scale-95">-</button>
+  <span id="qty-p-2" class="w-8 text-center text-sm font-bold">1</span>
+  <button onclick="updateQty('p-2', 1)" class="w-8 h-8 flex items-center justify-center text-on-surface-variant hover:text-black font-bold active:scale-95">+</button>
+  </div>
+  </div>
+
+  <div class="flex gap-3">
+  <button onclick="buyNowFromCard('p-2', 'Pure Olive Oil', 650, '112ml', 'assets/products/product_2_olive_oil.jpg')" class="flex-1 py-4 bg-primary text-white rounded-full font-label-md uppercase tracking-wider text-xs font-bold hover:bg-secondary transition-all active:scale-95 shadow-md">Buy Now</button>
+  <button onclick="addToCartFromCard('p-2', 'Pure Olive Oil', 650, '112ml', 'assets/products/product_2_olive_oil.jpg')" class="w-14 h-14 flex items-center justify-center rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-all active:scale-95 shadow-sm" title="Add to Cart">
+  <span class="material-symbols-outlined">shopping_cart</span>
+  </button>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- Product 3: Wild Flower Honey -->
+<div class="group flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden border border-outline-variant/30 transition-all hover:shadow-xl hover:-translate-y-1" data-product-id="p-3">
+<div class="relative aspect-square overflow-hidden bg-surface-container-low/30">
+<img alt="Wild Flower Honey" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500" src="assets/products/product_3_honey.jpg">
+<span class="absolute top-4 right-4 bg-white/90 backdrop-blur text-primary text-[11px] font-bold px-3 py-1 rounded-full shadow-sm">Raw & Organic</span>
+</div>
+<div class="p-8 flex flex-col flex-grow justify-between">
+<div>
+  <div class="flex justify-between items-start mb-2">
+  <h3 class="font-headline-lg text-xl text-primary font-bold">Wild Flower Honey</h3>
+  <div class="flex items-center text-secondary">
+  <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="text-sm font-label-md ml-1 font-bold">5.0</span>
+  </div>
+  </div>
+  <p class="text-xs text-gray-500 mb-4">Unfiltered organic honey</p>
+</div>
+
+<div>
+  <div class="flex items-center justify-between mb-6">
+  <span class="text-2xl font-bold text-primary">Rs. 900 <span class="text-xs font-normal text-gray-500">(500g)</span></span>
+  <div class="flex items-center border border-outline rounded-full bg-white shadow-sm">
+  <button onclick="updateQty('p-3', -1)" class="w-8 h-8 flex items-center justify-center text-on-surface-variant hover:text-black font-bold active:scale-95">-</button>
+  <span id="qty-p-3" class="w-8 text-center text-sm font-bold">1</span>
+  <button onclick="updateQty('p-3', 1)" class="w-8 h-8 flex items-center justify-center text-on-surface-variant hover:text-black font-bold active:scale-95">+</button>
+  </div>
+  </div>
+
+  <div class="flex gap-3">
+  <button onclick="buyNowFromCard('p-3', 'Wild Flower Honey', 900, '500g', 'assets/products/product_3_honey.jpg')" class="flex-1 py-4 bg-primary text-white rounded-full font-label-md uppercase tracking-wider text-xs font-bold hover:bg-secondary transition-all active:scale-95 shadow-md">Buy Now</button>
+  <button onclick="addToCartFromCard('p-3', 'Wild Flower Honey', 900, '500g', 'assets/products/product_3_honey.jpg')" class="w-14 h-14 flex items-center justify-center rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-all active:scale-95 shadow-sm" title="Add to Cart">
+  <span class="material-symbols-outlined">shopping_cart</span>
+  </button>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- Product 4: Desi Ghee Large -->
+<div class="group flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden border border-outline-variant/30 transition-all hover:shadow-xl hover:-translate-y-1" data-product-id="p-4">
+<div class="relative aspect-square overflow-hidden bg-surface-container-low/30">
+<img alt="Pure Desi Ghee" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500" src="assets/products/product_4_desi_ghee.png">
+<span class="absolute top-4 right-4 bg-white/90 backdrop-blur text-primary text-[11px] font-bold px-3 py-1 rounded-full shadow-sm">Grass Fed</span>
+</div>
+<div class="p-8 flex flex-col flex-grow justify-between">
+<div>
+  <div class="flex justify-between items-start mb-2">
+  <h3 class="font-headline-lg text-xl text-primary font-bold">Pure Desi Ghee</h3>
+  <div class="flex items-center text-secondary">
+  <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="text-sm font-label-md ml-1 font-bold">4.9</span>
+  </div>
+  </div>
+  <p class="text-xs text-gray-500 mb-4">Traditional homemade taste</p>
+</div>
+
+<div>
+  <div class="flex items-center justify-between mb-6">
+  <span class="text-2xl font-bold text-primary">Rs. 3,200 <span class="text-xs font-normal text-gray-500">(1kg)</span></span>
+  <div class="flex items-center border border-outline rounded-full bg-white shadow-sm">
+  <button onclick="updateQty('p-4', -1)" class="w-8 h-8 flex items-center justify-center text-on-surface-variant hover:text-black font-bold active:scale-95">-</button>
+  <span id="qty-p-4" class="w-8 text-center text-sm font-bold">1</span>
+  <button onclick="updateQty('p-4', 1)" class="w-8 h-8 flex items-center justify-center text-on-surface-variant hover:text-black font-bold active:scale-95">+</button>
+  </div>
+  </div>
+
+  <div class="flex gap-3">
+  <button onclick="buyNowFromCard('p-4', 'Pure Desi Ghee', 3200, '1kg', 'assets/products/product_4_desi_ghee.png')" class="flex-1 py-4 bg-primary text-white rounded-full font-label-md uppercase tracking-wider text-xs font-bold hover:bg-secondary transition-all active:scale-95 shadow-md">Buy Now</button>
+  <button onclick="addToCartFromCard('p-4', 'Pure Desi Ghee', 3200, '1kg', 'assets/products/product_4_desi_ghee.png')" class="w-14 h-14 flex items-center justify-center rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-all active:scale-95 shadow-sm" title="Add to Cart">
+  <span class="material-symbols-outlined">shopping_cart</span>
+  </button>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- Product 5: Mixed Pickle -->
+<div class="group flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden border border-outline-variant/30 transition-all hover:shadow-xl hover:-translate-y-1" data-product-id="p-5">
+<div class="relative aspect-square overflow-hidden bg-surface-container-low/30">
+<img alt="Traditional Mixed Pickle" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500" src="assets/products/product_5_pickle.jpg">
+<span class="absolute top-4 right-4 bg-white/90 backdrop-blur text-primary text-[11px] font-bold px-3 py-1 rounded-full shadow-sm">Heritage</span>
+</div>
+<div class="p-8 flex flex-col flex-grow justify-between">
+<div>
+  <div class="flex justify-between items-start mb-2">
+  <h3 class="font-headline-lg text-xl text-primary font-bold">Traditional Mixed Pickle</h3>
+  <div class="flex items-center text-secondary">
+  <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="text-sm font-label-md ml-1 font-bold">4.7</span>
+  </div>
+  </div>
+  <p class="text-xs text-gray-500 mb-4">Handcrafted spicy mix</p>
+</div>
+
+<div>
+  <div class="flex items-center justify-between mb-6">
+  <span class="text-2xl font-bold text-primary">Rs. 700 <span class="text-xs font-normal text-gray-500">(1kg)</span></span>
+  <div class="flex items-center border border-outline rounded-full bg-white shadow-sm">
+  <button onclick="updateQty('p-5', -1)" class="w-8 h-8 flex items-center justify-center text-on-surface-variant hover:text-black font-bold active:scale-95">-</button>
+  <span id="qty-p-5" class="w-8 text-center text-sm font-bold">1</span>
+  <button onclick="updateQty('p-5', 1)" class="w-8 h-8 flex items-center justify-center text-on-surface-variant hover:text-black font-bold active:scale-95">+</button>
+  </div>
+  </div>
+
+  <div class="flex gap-3">
+  <button onclick="buyNowFromCard('p-5', 'Traditional Mixed Pickle (1kg)', 700, '1kg', 'assets/products/product_5_pickle.jpg')" class="flex-1 py-4 bg-primary text-white rounded-full font-label-md uppercase tracking-wider text-xs font-bold hover:bg-secondary transition-all active:scale-95 shadow-md">Buy Now</button>
+  <button onclick="addToCartFromCard('p-5', 'Traditional Mixed Pickle (1kg)', 700, '1kg', 'assets/products/product_5_pickle.jpg')" class="w-14 h-14 flex items-center justify-center rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-all active:scale-95 shadow-sm" title="Add to Cart">
+  <span class="material-symbols-outlined">shopping_cart</span>
+  </button>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- Product 6: Pure Himalayan Shilajit -->
+<div class="group flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden border border-outline-variant/30 transition-all hover:shadow-xl hover:-translate-y-1" data-product-id="p-6">
+<div class="relative aspect-square overflow-hidden bg-surface-container-low/30">
+<img alt="Pure Himalayan Shilajit" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="assets/products/shilajit2.jpg">
+<span class="absolute top-4 right-4 bg-secondary text-white text-[11px] font-bold px-3 py-1 rounded-full shadow-sm">100% Organic</span>
+</div>
+<div class="p-8 flex flex-col flex-grow justify-between">
+<div>
+  <div class="flex justify-between items-start mb-2">
+  <h3 class="font-headline-lg text-xl text-primary font-bold">Pure Himalayan Shilajit</h3>
+  <div class="flex items-center text-secondary">
+  <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="text-sm font-label-md ml-1 font-bold">5.0</span>
+  </div>
+  </div>
+  <p class="text-xs text-gray-500 mb-4">Mountain Resin Energy & Strength Booster</p>
+</div>
+
+<div>
+  <div class="flex items-center justify-between mb-6">
+  <span class="text-2xl font-bold text-primary">Rs. 1,000 <span class="text-xs font-normal text-gray-500">(1 Tola)</span></span>
+  <div class="flex items-center border border-outline rounded-full bg-white shadow-sm">
+  <button onclick="updateQty('p-6', -1)" class="w-8 h-8 flex items-center justify-center text-on-surface-variant hover:text-black font-bold active:scale-95">-</button>
+  <span id="qty-p-6" class="w-8 text-center text-sm font-bold">1</span>
+  <button onclick="updateQty('p-6', 1)" class="w-8 h-8 flex items-center justify-center text-on-surface-variant hover:text-black font-bold active:scale-95">+</button>
+  </div>
+  </div>
+
+  <div class="flex gap-3">
+  <button onclick="buyNowFromCard('p-6', 'Pure Himalayan Shilajit', 1000, '1 Tola', 'assets/products/shilajit2.jpg')" class="flex-1 py-4 bg-primary text-white rounded-full font-label-md uppercase tracking-wider text-xs font-bold hover:bg-secondary transition-all active:scale-95 shadow-md">Buy Now</button>
+  <button onclick="addToCartFromCard('p-6', 'Pure Himalayan Shilajit', 1000, '1 Tola', 'assets/products/shilajit2.jpg')" class="w-14 h-14 flex items-center justify-center rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-all active:scale-95 shadow-sm" title="Add to Cart">
+  <span class="material-symbols-outlined">shopping_cart</span>
+  </button>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+
+<!-- Product 8: Pure Organic Talbina -->
+<div class="group flex flex-col bg-surface-container-lowest rounded-2xl overflow-hidden border border-outline-variant/30 transition-all hover:shadow-xl hover:-translate-y-1" data-product-id="p-8">
+<div class="relative aspect-square overflow-hidden bg-surface-container-low/30">
+<img alt="Pure Organic Talbina" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500" src="assets/products/talbina2.jpg">
+<span class="absolute top-4 right-4 bg-green-700 text-white text-[11px] font-bold px-3 py-1 rounded-full shadow-sm">Sunnah Nutrition</span>
+</div>
+<div class="p-8 flex flex-col flex-grow justify-between">
+<div>
+  <div class="flex justify-between items-start mb-2">
+  <h3 class="font-headline-lg text-xl text-primary font-bold">Pure Organic Talbina</h3>
+  <div class="flex items-center text-secondary">
+  <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="text-sm font-label-md ml-1 font-bold">4.9</span>
+  </div>
+  </div>
+  <p class="text-xs text-gray-500 mb-4">Digestive & Energy Wellness Pack</p>
+</div>
+
+<div>
+  <div class="flex items-center justify-between mb-6">
+  <span class="text-2xl font-bold text-primary">Rs. 1,300 <span class="text-xs font-normal text-gray-500">(450g)</span></span>
+  <div class="flex items-center border border-outline rounded-full bg-white shadow-sm">
+  <button onclick="updateQty('p-8', -1)" class="w-8 h-8 flex items-center justify-center text-on-surface-variant hover:text-black font-bold active:scale-95">-</button>
+  <span id="qty-p-8" class="w-8 text-center text-sm font-bold">1</span>
+  <button onclick="updateQty('p-8', 1)" class="w-8 h-8 flex items-center justify-center text-on-surface-variant hover:text-black font-bold active:scale-95">+</button>
+  </div>
+  </div>
+
+  <div class="flex gap-3">
+  <button onclick="buyNowFromCard('p-8', 'Pure Organic Talbina', 1300, '450g', 'assets/products/talbina.jpg')" class="flex-1 py-4 bg-primary text-white rounded-full font-label-md uppercase tracking-wider text-xs font-bold hover:bg-secondary transition-all active:scale-95 shadow-md">Buy Now</button>
+  <button onclick="addToCartFromCard('p-8', 'Pure Organic Talbina', 1300, '450g', 'assets/products/talbina.jpg')" class="w-14 h-14 flex items-center justify-center rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-all active:scale-95 shadow-sm" title="Add to Cart">
+  <span class="material-symbols-outlined">shopping_cart</span>
+  </button>
+  </div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="mt-16 text-center">
+<button onclick="openCartDrawer()" class="px-12 py-5 border-2 border-primary rounded-full font-label-md uppercase tracking-[0.2em] font-bold text-primary hover:bg-primary hover:text-white transition-all duration-300 shadow-sm active:scale-95">View Cart & Checkout</button>
+</div>
+</div>
+</section>
+
+<!-- 4b-extra. New Arrivals Banner Strip -->
+<section class="py-16 bg-gradient-to-r from-amber-900 via-primary to-amber-900 relative overflow-hidden">
+  <div class="absolute inset-0 opacity-10" style="background-image:url('data:image/svg+xml,%3Csvg width=60 height=60 viewBox=0 0 60 60 xmlns=http://www.w3.org/2000/svg%3E%3Cg fill=none fill-rule=evenodd%3E%3Cg fill=%23ffffff fill-opacity=0.4%3E%3Cpath d=M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+  <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
+    <div class="text-center mb-10">
+      <span class="bg-secondary text-white text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full shadow-md inline-block mb-3">✨ نئی آمد • New Arrivals</span>
+      <h2 class="font-headline-lg text-headline-lg font-bold text-white mb-2">Premium Health Products</h2>
+      <p class="text-amber-200 font-body-md text-sm max-w-xl mx-auto">Our latest additions — pure, authentic, and sourced from nature's finest origins</p>
+      <div class="w-24 h-1 bg-secondary mx-auto mt-4 rounded-full"></div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+
+      <!-- New Arrival 1: Shilajit -->
+      <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-3xl overflow-hidden group hover:bg-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl flex flex-col">
+        <div class="relative overflow-hidden" style="height:260px">
+          <img src="assets/products/shilajit2.jpg" alt="Pure Himalayan Shilajit" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+          <span class="absolute top-4 left-4 bg-secondary text-white text-[11px] font-bold px-3 py-1 rounded-full shadow-sm">100% Organic</span>
+          <div class="absolute bottom-4 left-4 right-4">
+            <h3 class="text-white font-bold text-xl font-headline-lg">Pure Himalayan Shilajit</h3>
+            <p class="text-amber-200 text-xs mt-1">Mountain Resin • Energy & Strength</p>
+          </div>
+        </div>
+        <div class="p-6 flex items-center justify-between bg-white/5">
+          <div>
+            <span class="text-2xl font-bold text-white">Rs. 1,000</span>
+            <span class="text-amber-300 text-xs block">Per 1 Tola</span>
+          </div>
+          <div class="flex gap-2">
+            <button onclick="buyNowFromCard('p-7', 'Pure Himalayan Shilajit', 1000, '1 Tola', 'assets/products/shilajit2.jpg')" class="px-5 py-2.5 bg-secondary text-white rounded-full text-xs font-bold uppercase tracking-wider hover:bg-amber-600 transition-all active:scale-95 shadow-md">Buy Now</button>
+            <button onclick="addToCartFromCard('p-7', 'Pure Himalayan Shilajit', 1000, '1 Tola', 'assets/products/shilajit2.jpg')" class="w-10 h-10 flex items-center justify-center rounded-full border border-white/50 text-white hover:bg-white hover:text-primary transition-all active:scale-95" title="Add to Cart">
+              <span class="material-symbols-outlined text-sm">shopping_cart</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Arrival 2: Talbina -->
+      <div class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-3xl overflow-hidden group hover:bg-white/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl flex flex-col">
+        <div class="relative overflow-hidden" style="height:260px">
+          <img src="assets/products/talbina2.jpg" alt="Pure Organic Talbina" class="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500" style="background:#f5f3f0">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+          <span class="absolute top-4 left-4 bg-green-600 text-white text-[11px] font-bold px-3 py-1 rounded-full shadow-sm">Sunnah Nutrition</span>
+          <div class="absolute bottom-4 left-4 right-4">
+            <h3 class="text-white font-bold text-xl font-headline-lg">Pure Organic Talbina</h3>
+            <p class="text-amber-200 text-xs mt-1">Powerful Nutrition • Digestive Wellness</p>
+          </div>
+        </div>
+        <div class="p-6 flex items-center justify-between bg-white/5">
+          <div>
+            <span class="text-2xl font-bold text-white">Rs. 1,300</span>
+            <span class="text-amber-300 text-xs block">Per 450g Pack</span>
+          </div>
+          <div class="flex gap-2">
+            <button onclick="buyNowFromCard('p-8', 'Pure Organic Talbina', 1300, '450g', 'assets/products/talbina2.jpg')" class="px-5 py-2.5 bg-secondary text-white rounded-full text-xs font-bold uppercase tracking-wider hover:bg-amber-600 transition-all active:scale-95 shadow-md">Buy Now</button>
+            <button onclick="addToCartFromCard('p-8', 'Pure Organic Talbina', 1300, '450g', 'assets/products/talbina2.jpg')" class="w-10 h-10 flex items-center justify-center rounded-full border border-white/50 text-white hover:bg-white hover:text-primary transition-all active:scale-95" title="Add to Cart">
+              <span class="material-symbols-outlined text-sm">shopping_cart</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 4b. Exclusive Combo Deals Section -->
+<section class="py-24 bg-surface-container-low border-t border-b border-outline-variant/30" id="deals">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="bg-secondary text-white text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full shadow-md inline-block mb-3">🔥 Special Offers & Bumper Deals</span>
+<h2 class="font-headline-lg text-headline-lg mb-4 text-primary font-bold">Exclusive Combo Deals</h2>
+<p class="text-on-surface-variant font-body-md text-base">Save big with our handcrafted pure desi value bundles! Every deal includes <strong>100% Free Nationwide Delivery</strong> across Pakistan.</p>
+<div class="w-24 h-1 bg-secondary mx-auto mt-4 rounded-full"></div>
+</div>
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+
+<!-- Deal Card 1: Bari Eid Offer -->
+<div class="bg-white rounded-3xl luxury-shadow overflow-hidden border border-outline-variant/30 flex flex-col justify-between group hover:shadow-2xl transition-all duration-300">
+<div class="relative overflow-hidden bg-gradient-to-br from-amber-50 to-orange-50 p-4">
+  <img src="assets/deals/eid_deal.jpg" alt="Bari Eid Special Deal" class="w-full h-auto rounded-2xl object-cover group-hover:scale-102 transition-transform duration-500 shadow-md">
+  <span class="absolute top-8 left-8 bg-red-600 text-white text-xs uppercase font-bold tracking-wider px-4 py-1.5 rounded-full shadow-lg">Save Rs. 750</span>
+  <span class="absolute top-8 right-8 bg-green-700 text-white text-xs uppercase font-bold tracking-wider px-4 py-1.5 rounded-full shadow-lg flex items-center gap-1">
+    <span class="material-symbols-outlined text-sm">local_shipping</span> FREE Delivery
+  </span>
+</div>
+
+<div class="p-8 flex flex-col flex-grow justify-between bg-white space-y-6">
+  <div>
+    <div class="flex justify-between items-start mb-3">
+      <div>
+        <span class="text-xs uppercase tracking-widest font-bold text-secondary">خصوصی پیشکش &bull; Limited Offer</span>
+        <h3 class="font-headline-lg text-2xl font-bold text-primary mt-1">Bari Eid Special Offer</h3>
+        <p class="text-sm font-semibold text-amber-800 mt-1">آدھا کلو دیسی گھی اور 1 گرام زعفران</p>
+      </div>
+      <div class="text-right">
+        <span class="text-xs text-gray-400 line-through block">Rs. 3,500</span>
+        <span class="text-3xl font-bold text-secondary font-headline-lg">Rs. 2,750</span>
+      </div>
+    </div>
+
+    <div class="bg-amber-50/60 p-4 rounded-2xl border border-amber-100 space-y-2 text-xs text-gray-700 my-4">
+      <p class="font-bold text-primary text-sm flex items-center gap-2">
+        <span class="material-symbols-outlined text-secondary text-base">card_giftcard</span> Deal Package Includes:
+      </p>
+      <div class="grid grid-cols-2 gap-2 pt-1 font-medium">
+        <div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-green-600 text-sm">check_circle</span> 500g Pure Grass-Fed Desi Ghee</div>
+        <div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-green-600 text-sm">check_circle</span> 1g Organic Saffron (FREE Gift)</div>
+        <div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-green-600 text-sm">check_circle</span> Free All-Pakistan Delivery</div>
+        <div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-green-600 text-sm">check_circle</span> Cash on Delivery</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-2 gap-4 pt-2">
+    <button onclick="addToCart({id: 'deal-1', title: 'Bari Eid Offer (500g Ghee + 1g Saffron)', price: 2750, size: '500g Ghee + 1g Saffron', image: 'assets/deals/eid_deal.jpg', quantity: 1})" class="py-4 px-4 rounded-full border-2 border-primary text-primary font-label-md uppercase tracking-wider text-xs font-bold hover:bg-primary hover:text-white transition-all active:scale-95 shadow-sm text-center">Add Deal to Cart</button>
+    <button onclick="buyNow({id: 'deal-1', title: 'Bari Eid Offer (500g Ghee + 1g Saffron)', price: 2750, size: '500g Ghee + 1g Saffron', image: 'assets/deals/eid_deal.jpg', quantity: 1})" class="py-4 px-4 rounded-full bg-primary text-white font-label-md uppercase tracking-wider text-xs font-bold hover:bg-secondary transition-all active:scale-95 shadow-md text-center flex items-center justify-center gap-2">
+      <span>Buy Now</span>
+      <span class="material-symbols-outlined text-sm">arrow_forward</span>
+    </button>
+  </div>
+</div>
+</div>
+
+<!-- Deal Card 2: All in One Mega Deal -->
+<div class="bg-white rounded-3xl luxury-shadow overflow-hidden border border-outline-variant/30 flex flex-col justify-between group hover:shadow-2xl transition-all duration-300">
+<div class="relative overflow-hidden bg-gradient-to-br from-green-50 to-emerald-50 p-4">
+  <img src="assets/deals/mega_deal.jpg" alt="All In One Mega Deal" class="w-full h-auto rounded-2xl object-cover group-hover:scale-102 transition-transform duration-500 shadow-md">
+  <span class="absolute top-8 left-8 bg-red-600 text-white text-xs uppercase font-bold tracking-wider px-4 py-1.5 rounded-full shadow-lg">Save Rs. 1,200</span>
+  <span class="absolute top-8 right-8 bg-green-700 text-white text-xs uppercase font-bold tracking-wider px-4 py-1.5 rounded-full shadow-lg flex items-center gap-1">
+    <span class="material-symbols-outlined text-sm">local_shipping</span> FREE Delivery
+  </span>
+</div>
+
+<div class="p-8 flex flex-col flex-grow justify-between bg-white space-y-6">
+  <div>
+    <div class="flex justify-between items-start mb-3">
+      <div>
+        <span class="text-xs uppercase tracking-widest font-bold text-secondary">دیسی خالص اور قدرتی &bull; Mega Combo</span>
+        <h3 class="font-headline-lg text-2xl font-bold text-primary mt-1">All In One Mega Deal</h3>
+        <p class="text-sm font-semibold text-green-800 mt-1">4-in-1 Complete Pantry Pack (2kg Total)</p>
+      </div>
+      <div class="text-right">
+        <span class="text-xs text-gray-400 line-through block">Rs. 4,800</span>
+        <span class="text-3xl font-bold text-secondary font-headline-lg">Rs. 3,600</span>
+      </div>
+    </div>
+
+    <div class="bg-green-50/60 p-4 rounded-2xl border border-green-100 space-y-2 text-xs text-gray-700 my-4">
+      <p class="font-bold text-primary text-sm flex items-center gap-2">
+        <span class="material-symbols-outlined text-secondary text-base">inventory_2</span> 4 Full Products Included:
+      </p>
+      <div class="grid grid-cols-2 gap-2 pt-1 font-medium">
+        <div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-green-600 text-sm">check_circle</span> 500g Pure Desi Ghee</div>
+        <div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-green-600 text-sm">check_circle</span> 500g Pure Sidr Honey</div>
+        <div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-green-600 text-sm">check_circle</span> 500g Special Chutney</div>
+        <div class="flex items-center gap-1.5"><span class="material-symbols-outlined text-green-600 text-sm">check_circle</span> 500g Mixed Achar</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-2 gap-4 pt-2">
+    <button onclick="addToCart({id: 'deal-2', title: 'All In One Mega Deal (4-in-1 Pack)', price: 3600, size: '2kg Combo Pack', image: 'assets/deals/mega_deal.jpg', quantity: 1})" class="py-4 px-4 rounded-full border-2 border-primary text-primary font-label-md uppercase tracking-wider text-xs font-bold hover:bg-primary hover:text-white transition-all active:scale-95 shadow-sm text-center">Add Deal to Cart</button>
+    <button onclick="buyNow({id: 'deal-2', title: 'All In One Mega Deal (4-in-1 Pack)', price: 3600, size: '2kg Combo Pack', image: 'assets/deals/mega_deal.jpg', quantity: 1})" class="py-4 px-4 rounded-full bg-primary text-white font-label-md uppercase tracking-wider text-xs font-bold hover:bg-secondary transition-all active:scale-95 shadow-md text-center flex items-center justify-center gap-2">
+      <span>Buy Now</span>
+      <span class="material-symbols-outlined text-sm">arrow_forward</span>
+    </button>
+  </div>
+</div>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- 5. Why Choose Us -->
+<section class="py-24 bg-surface-container">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-headline-lg mb-4 text-primary">The Desi Taste Commitment</h2>
+<p class="text-on-surface-variant font-body-md">Honoring heritage through uncompromising quality and tradition.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+<!-- Feature 1 -->
+<div class="flex flex-col items-center text-center group">
+<div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform luxury-shadow">
+<span class="material-symbols-outlined text-secondary text-4xl" data-icon="verified">verified</span>
+</div>
+<h4 class="font-headline-lg text-lg mb-2 font-bold text-primary">100% Pure</h4>
+</div>
+<!-- Feature 2 -->
+<div class="flex flex-col items-center text-center group">
+<div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform luxury-shadow">
+<span class="material-symbols-outlined text-secondary text-4xl">home</span>
+</div>
+<h4 class="font-headline-lg text-lg mb-2 font-bold text-primary">Homemade</h4>
+</div>
+<!-- Feature 3 -->
+<div class="flex flex-col items-center text-center group">
+<div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform luxury-shadow">
+<span class="material-symbols-outlined text-secondary text-4xl">workspace_premium</span>
+</div>
+<h4 class="font-headline-lg text-lg mb-2 font-bold text-primary">Premium Quality</h4>
+</div>
+<!-- Feature 4 -->
+<div class="flex flex-col items-center text-center group">
+<div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform luxury-shadow">
+<span class="material-symbols-outlined text-secondary text-4xl">menu_book</span>
+</div>
+<h4 class="font-headline-lg text-lg mb-2 font-bold text-primary">Traditional</h4>
+</div>
+<!-- Feature 5 -->
+<div class="flex flex-col items-center text-center group">
+<div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform luxury-shadow">
+<span class="material-symbols-outlined text-secondary text-4xl">local_shipping</span>
+</div>
+<h4 class="font-headline-lg text-lg mb-2 font-bold text-primary">Fast Delivery</h4>
+</div>
+<!-- Feature 6 -->
+<div class="flex flex-col items-center text-center group">
+<div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform luxury-shadow">
+<span class="material-symbols-outlined text-secondary text-4xl">security</span>
+</div>
+<h4 class="font-headline-lg text-lg mb-2 font-bold text-primary">Secure Payments</h4>
+</div>
+</div>
+</div>
+</section>
+
+<!-- 6. About Us Section -->
+<section class="py-24 bg-white overflow-hidden" id="about">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="flex flex-col lg:flex-row items-center gap-20">
+<div class="w-full lg:w-1/2 relative">
+<div class="absolute -top-10 -left-10 w-40 h-40 bg-secondary/10 rounded-full blur-3xl"></div>
+<div class="relative z-10 p-4 gold-border rounded-2xl">
+<img class="w-full h-[500px] object-cover rounded-xl shadow-2xl" alt="Pakistani Heritage Spices and Food" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdSz70yxp829JPOG2kMq3-IB588LQuzqxYsOYvsSCF3E0IVJWkHiKTPjd_f5ELw7FPAckEBWzVIT2xetdsFOlhzWn4mYnf4_t6qQcyCR5KSbuqt5d1Eeu4CMFv_JasdIl0Nou5cO-93Vo6S-HW-VIM2QQtFGdH6AHCh_E6KoEnV_OL2HVyf5cEWM1WghaRsQwp3QTM3pYMoz9NhaRZzi17qSxrJQSnNC0dHQjvcxRZRefuhPYA0l7iJyU1ZiuPPidNxAHVoE1W_K2BHdE">
+</div>
+</div>
+<div class="w-full lg:w-1/2">
+<h2 class="font-headline-lg text-display-lg mb-8 leading-tight text-primary">About Desi Taste Land</h2>
+<div class="space-y-4 font-body-md text-on-surface-variant text-lg leading-relaxed">
+<p><strong class="text-primary font-bold">Desi Taste Land</strong> was founded with a simple mission: to provide <strong class="text-secondary font-bold">pure, high-quality desi foods and natural wellness products</strong> with honesty and care. We believe that halal, pure, and wholesome sustenance is a blessing from Allah, and we strive to deliver products that our customers can trust with confidence.</p>
+<p>From <strong class="text-primary">Pure Honey, Desi Ghee, Olive Oil, Traditional Pickles, Chai Patti, Talbina, Saffron, and Shilajit</strong> to other carefully selected desi essentials, every product reflects our commitment to quality, authenticity, and customer satisfaction.</p>
+<p class="p-4 bg-secondary/10 border-l-4 border-secondary rounded-r-lg font-headline-lg text-base text-primary italic">"Desi Taste Land — Pure Taste, Honest Quality, By the Grace of Allah."</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- 7. Reviews Slider -->
+<section class="py-24 bg-surface-container-low" id="reviews">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-4">
+<div>
+<h2 class="font-headline-lg text-headline-lg mb-2 text-primary">Voices of Our Community</h2>
+<p class="text-on-surface-variant font-body-md max-w-xl">Read real feedback from our valued customers across Pakistan who trust Desi Taste Land for pure heritage taste.</p>
+</div>
+<div class="flex gap-4 self-end">
+<button onclick="scrollSlider('reviews-slider', -450)" class="w-12 h-12 rounded-full border border-outline-variant bg-white flex items-center justify-center hover:bg-primary hover:text-white transition-all shadow-sm active:scale-95" title="Previous Review">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<button onclick="scrollSlider('reviews-slider', 450)" class="w-12 h-12 rounded-full border border-outline-variant bg-white flex items-center justify-center hover:bg-primary hover:text-white transition-all shadow-sm active:scale-95" title="Next Review">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</div>
+
+<div id="reviews-slider" class="flex gap-gutter overflow-x-auto hide-scrollbar snap-x pb-8 scroll-smooth">
+
+<!-- Testimonial 1 -->
+<div class="min-w-[320px] md:min-w-[450px] snap-center bg-white p-10 rounded-2xl luxury-shadow border border-outline-variant/20 flex flex-col justify-between">
+<div>
+  <div class="flex gap-1 text-secondary mb-6">
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  </div>
+  <p class="font-body-lg text-primary italic mb-10 leading-relaxed">"The quality is really impressive. The honey tastes pure and the packaging was excellent. Delivery was also on time. Highly recommended!"</p>
+</div>
+<div class="flex items-center gap-4 border-t pt-4">
+<div class="w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center font-bold text-secondary text-lg">
+MA
+</div>
+<div>
+<p class="font-headline-lg text-lg font-bold text-primary">Muhammad Ahmed</p>
+<p class="text-xs text-on-surface-variant uppercase tracking-widest font-medium">Verified Buyer &bull; Lahore</p>
+</div>
+</div>
+</div>
+
+<!-- Testimonial 2 -->
+<div class="min-w-[320px] md:min-w-[450px] snap-center bg-white p-10 rounded-2xl luxury-shadow border border-outline-variant/20 flex flex-col justify-between">
+<div>
+  <div class="flex gap-1 text-secondary mb-6">
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  </div>
+  <p class="font-body-lg text-primary italic mb-10 leading-relaxed">"I bought Talbina and Saffron from Desi Taste Land. The quality exceeded my expectations. Trusted seller with excellent customer service."</p>
+</div>
+<div class="flex items-center gap-4 border-t pt-4">
+<div class="w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center font-bold text-secondary text-lg">
+FN
+</div>
+<div>
+<p class="font-headline-lg text-lg font-bold text-primary">Fatima Noor</p>
+<p class="text-xs text-on-surface-variant uppercase tracking-widest font-medium">Verified Buyer &bull; Islamabad</p>
+</div>
+</div>
+</div>
+
+<!-- Testimonial 3 -->
+<div class="min-w-[320px] md:min-w-[450px] snap-center bg-white p-10 rounded-2xl luxury-shadow border border-outline-variant/20 flex flex-col justify-between">
+<div>
+  <div class="flex gap-1 text-secondary mb-6">
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  </div>
+  <p class="font-body-lg text-primary italic mb-10 leading-relaxed">"Desi Ghee and Traditional Pickle remind me of homemade village food. Pure aroma, 100% natural, fast COD delivery."</p>
+</div>
+<div class="flex items-center gap-4 border-t pt-4">
+<div class="w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center font-bold text-secondary text-lg">
+ZK
+</div>
+<div>
+<p class="font-headline-lg text-lg font-bold text-primary">Zubair Khan</p>
+<p class="text-xs text-on-surface-variant uppercase tracking-widest font-medium">Verified Buyer &bull; Karachi</p>
+</div>
+</div>
+</div>
+
+<!-- Testimonial 4 -->
+<div class="min-w-[320px] md:min-w-[450px] snap-center bg-white p-10 rounded-2xl luxury-shadow border border-outline-variant/20 flex flex-col justify-between">
+<div>
+  <div class="flex gap-1 text-secondary mb-6">
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  </div>
+  <p class="font-body-lg text-primary italic mb-10 leading-relaxed">"Sidr Honey quality is export grade as promised! Honey thick and natural hai, leak-proof glass jar packaging, delivery inside 2 days."</p>
+</div>
+<div class="flex items-center gap-4 border-t pt-4">
+<div class="w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center font-bold text-secondary text-lg">
+UT
+</div>
+<div>
+<p class="font-headline-lg text-lg font-bold text-primary">Usman Tariq</p>
+<p class="text-xs text-on-surface-variant uppercase tracking-widest font-medium">Verified Buyer &bull; Rawalpindi</p>
+</div>
+</div>
+</div>
+
+<!-- Testimonial 5 -->
+<div class="min-w-[320px] md:min-w-[450px] snap-center bg-white p-10 rounded-2xl luxury-shadow border border-outline-variant/20 flex flex-col justify-between">
+<div>
+  <div class="flex gap-1 text-secondary mb-6">
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  </div>
+  <p class="font-body-lg text-primary italic mb-10 leading-relaxed">"Main 2 mahine se Desi Taste Land ka Pure Olive Oil aur Chai Patti use kar rahi hoon. Taste & aroma outstanding hain!"</p>
+</div>
+<div class="flex items-center gap-4 border-t pt-4">
+<div class="w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center font-bold text-secondary text-lg">
+AM
+</div>
+<div>
+<p class="font-headline-lg text-lg font-bold text-primary">Ayesha Malik</p>
+<p class="text-xs text-on-surface-variant uppercase tracking-widest font-medium">Verified Buyer &bull; Faisalabad</p>
+</div>
+</div>
+</div>
+
+<!-- Testimonial 6 -->
+<div class="min-w-[320px] md:min-w-[450px] snap-center bg-white p-10 rounded-2xl luxury-shadow border border-outline-variant/20 flex flex-col justify-between">
+<div>
+  <div class="flex gap-1 text-secondary mb-6">
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  </div>
+  <p class="font-body-lg text-primary italic mb-10 leading-relaxed">"Traditional Pickle ka zaiqa waqai desi hai. Spices and oil perfectly balanced. COD service fast thi. 10/10 recommendation!"</p>
+</div>
+<div class="flex items-center gap-4 border-t pt-4">
+<div class="w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center font-bold text-secondary text-lg">
+BH
+</div>
+<div>
+<p class="font-headline-lg text-lg font-bold text-primary">Bilal Hussain</p>
+<p class="text-xs text-on-surface-variant uppercase tracking-widest font-medium">Verified Buyer &bull; Multan</p>
+</div>
+</div>
+</div>
+
+<!-- Testimonial 7 -->
+<div class="min-w-[320px] md:min-w-[450px] snap-center bg-white p-10 rounded-2xl luxury-shadow border border-outline-variant/20 flex flex-col justify-between">
+<div>
+  <div class="flex gap-1 text-secondary mb-6">
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  </div>
+  <p class="font-body-lg text-primary italic mb-10 leading-relaxed">"Pure Himalayan Shilajit order kiya tha. Energy aur vitality mein behtareen farq mehsoos hua. Authentic natural product!"</p>
+</div>
+<div class="flex items-center gap-4 border-t pt-4">
+<div class="w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center font-bold text-secondary text-lg">
+HR
+</div>
+<div>
+<p class="font-headline-lg text-lg font-bold text-primary">Hammad Raza</p>
+<p class="text-xs text-on-surface-variant uppercase tracking-widest font-medium">Verified Buyer &bull; Peshawar</p>
+</div>
+</div>
+</div>
+
+<!-- Testimonial 8 -->
+<div class="min-w-[320px] md:min-w-[450px] snap-center bg-white p-10 rounded-2xl luxury-shadow border border-outline-variant/20 flex flex-col justify-between">
+<div>
+  <div class="flex gap-1 text-secondary mb-6">
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+  </div>
+  <p class="font-body-lg text-primary italic mb-10 leading-relaxed">"All In One Mega Deal mangwaya tha. Sub products 100% pure aur authentic hain. Ghee ki khushboo aur zaiqa waqai lajawab hai."</p>
+</div>
+<div class="flex items-center gap-4 border-t pt-4">
+<div class="w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center font-bold text-secondary text-lg">
+SS
+</div>
+<div>
+<p class="font-headline-lg text-lg font-bold text-primary">Dr. Sadia Sohail</p>
+<p class="text-xs text-on-surface-variant uppercase tracking-widest font-medium">Verified Buyer &bull; Sialkot</p>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</section>
+
+<!-- 8. Contact Section -->
+<section class="py-24 bg-white" id="contact">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+<div>
+<h2 class="font-headline-lg text-headline-lg mb-8 text-primary">Get in Touch</h2>
+<p class="text-on-surface-variant font-body-md mb-12">Have a question about our products or want to discuss a wholesale order? Our team is here to assist you.</p>
+<div class="space-y-8 mb-12">
+<div class="flex items-center gap-6">
+<div class="w-12 h-12 rounded-full border border-secondary flex items-center justify-center text-secondary shadow-sm">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<p class="text-xs text-on-surface-variant uppercase tracking-widest font-medium">Phone / Call</p>
+<p class="font-sans text-lg text-primary font-bold whitespace-nowrap">+92 307 0016113</p>
+</div>
+</div>
+
+<div class="flex items-center gap-6">
+<div class="w-12 h-12 rounded-full border border-secondary flex items-center justify-center text-secondary shadow-sm">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div>
+<p class="text-xs text-on-surface-variant uppercase tracking-widest font-medium">Email</p>
+<a href="mailto:zaibbabar54@gmail.com" class="font-headline-lg text-lg text-primary font-bold hover:text-secondary">zaibbabar54@gmail.com</a>
+</div>
+</div>
+
+<div class="flex items-center gap-6">
+<div class="w-12 h-12 rounded-full border border-secondary flex items-center justify-center text-secondary shadow-sm bg-green-50">
+<span class="material-symbols-outlined text-green-600">chat</span>
+</div>
+<div>
+<p class="text-xs text-on-surface-variant uppercase tracking-widest font-medium">WhatsApp Orders</p>
+<a href="https://wa.me/923070016113" target="_blank" class="font-sans text-lg text-green-600 hover:underline font-bold whitespace-nowrap">+92 307 0016113</a>
+</div>
+</div>
+</div>
+<div class="h-64 rounded-2xl overflow-hidden border border-outline-variant/30 shadow-md">
+<img class="w-full h-full object-cover" alt="Lahore Store Location" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQm3HidzeKYjM8jg1jaZTcM3bYWPFxFSIw1XqAgGGueK2DOis6FUmDRUqzXAqG8huwSE42widXHaYYF-1z6-YWfisrlxR7Z1g79gJAdXP8IIhzC2BwjdFscuv-WnwWYvm8jTuoOCVUr1Z948fmmJzFqpq7fQrcA9iizrhPMRcmI8BKRNSRTHD-5ZXEnTlXN3sZbYYLMHtiVDcYIDL-jF9zWapT8kJ8OhH5NACo1mQ4mmbS1D9HAjML96NhzQ9_BK3i5oOBpAR-YEW3">
+</div>
+</div>
+
+<div class="bg-white p-8 md:p-10 rounded-3xl border border-outline-variant/30 shadow-xl relative" id="onpage-account-card">
+  <div class="text-center mb-6 space-y-1">
+    <div class="w-12 h-12 bg-secondary/15 rounded-full flex items-center justify-center mx-auto text-secondary mb-2">
+      <span class="material-symbols-outlined text-2xl">account_circle</span>
+    </div>
+    <h3 class="font-headline-lg text-2xl font-bold text-primary" id="onpage-auth-title">Customer Account Portal</h3>
+    <p class="text-xs text-gray-500" id="onpage-auth-subtitle">Sign up with email code or log in to your account</p>
+  </div>
+
+  <!-- On-Page Tabs -->
+  <div class="flex border-b border-gray-200 mb-6" id="onpage-auth-tabs">
+    <button onclick="switchOnpageTab('signup')" id="onpage-tab-signup-btn" class="flex-1 pb-3 text-sm font-bold uppercase tracking-wider text-secondary border-b-2 border-secondary transition-all">Sign Up</button>
+    <button onclick="switchOnpageTab('signin')" id="onpage-tab-signin-btn" class="flex-1 pb-3 text-sm font-bold uppercase tracking-wider text-gray-400 border-b-2 border-transparent hover:text-gray-600 transition-all">Sign In</button>
+  </div>
+
+  <!-- On-Page Sign Up Step 1 (Enter Details) -->
+  <form id="onpage-signup-step1" onsubmit="handleOnpageSendOTP(event)" class="space-y-4">
+    <div>
+      <label class="text-xs font-bold uppercase tracking-wider text-gray-600 block mb-1">Full Name *</label>
+      <input type="text" id="onpage-signup-name" required placeholder="Ahmed Ali" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm">
+    </div>
+    <div>
+      <label class="text-xs font-bold uppercase tracking-wider text-gray-600 block mb-1">Email Address *</label>
+      <input type="email" id="onpage-signup-email" required placeholder="your.email@example.com" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm">
+    </div>
+    <div>
+      <label class="text-xs font-bold uppercase tracking-wider text-gray-600 block mb-1">Create Password *</label>
+      <input type="password" id="onpage-signup-password" minlength="6" required placeholder="At least 6 characters" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm">
+    </div>
+    <button type="submit" id="onpage-btn-send-otp" class="w-full py-4 bg-secondary text-white rounded-full font-label-md uppercase tracking-wider font-bold text-xs hover:bg-amber-700 transition-all shadow-md active:scale-95 flex items-center justify-center gap-2">
+      <span class="material-symbols-outlined text-sm">send</span>
+      <span>Send Verification Code to Email</span>
+    </button>
+  </form>
+
+  <!-- On-Page Sign Up Step 2 (Enter OTP Code) -->
+  <form id="onpage-signup-step2" onsubmit="handleOnpageVerifyOTP(event)" class="space-y-4 hidden">
+    <div class="bg-amber-50 p-4 rounded-2xl border border-amber-200 text-center space-y-1">
+      <span class="material-symbols-outlined text-secondary text-2xl">mark_email_read</span>
+      <p class="text-xs font-bold text-gray-800">Verification Code Sent!</p>
+      <p class="text-[11px] text-gray-600">We sent a 6-digit code to <strong id="onpage-sent-email-display" class="text-secondary"></strong>. Please check your inbox.</p>
+    </div>
+
+    <div>
+      <label class="text-xs font-bold uppercase tracking-wider text-gray-600 block mb-1 text-center">Enter 6-Digit Code</label>
+      <input type="text" id="onpage-otp-code" maxlength="6" pattern="[0-9]{6}" required placeholder="123456" class="w-full px-4 py-3 rounded-xl border border-secondary focus:ring-2 focus:ring-secondary outline-none text-center font-mono font-bold text-xl tracking-widest text-primary">
+    </div>
+
+    <button type="submit" class="w-full py-4 bg-green-600 text-white rounded-full font-label-md uppercase tracking-wider font-bold text-xs hover:bg-green-700 transition-all shadow-md active:scale-95">
+      Verify Code & Create Account
+    </button>
+
+    <button type="button" onclick="resetOnpageSignupStep()" class="w-full text-xs text-gray-500 hover:text-primary underline text-center block pt-1">
+      &larr; Change Email or Details
+    </button>
+  </form>
+
+  <!-- On-Page Sign In Form -->
+  <form id="onpage-signin" onsubmit="handleOnpageSignIn(event)" class="space-y-4 hidden">
+    <div>
+      <label class="text-xs font-bold uppercase tracking-wider text-gray-600 block mb-1">Email Address *</label>
+      <input type="email" id="onpage-signin-email" required placeholder="your.email@example.com" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm">
+    </div>
+    <div>
+      <label class="text-xs font-bold uppercase tracking-wider text-gray-600 block mb-1">Password *</label>
+      <input type="password" id="onpage-signin-password" required placeholder="••••••••" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm">
+    </div>
+    <button type="submit" class="w-full py-4 bg-primary text-white rounded-full font-label-md uppercase tracking-wider font-bold text-xs hover:bg-secondary transition-all shadow-md active:scale-95">
+      Sign In to Account
+    </button>
+  </form>
+
+  <!-- On-Page Logged In State Card -->
+  <div id="onpage-profile-view" class="space-y-6 hidden text-center py-4">
+    <div class="w-20 h-20 bg-secondary text-white rounded-full flex items-center justify-center mx-auto text-2xl font-bold font-headline-lg shadow-lg border-4 border-amber-100" id="onpage-profile-initials">
+      AA
+    </div>
+    <div>
+      <h4 class="font-headline-lg text-xl font-bold text-primary" id="onpage-profile-name">Ahmed Ali</h4>
+      <p class="text-xs text-gray-500" id="onpage-profile-email">ahmed@example.com</p>
+      <span class="inline-block mt-2 bg-green-100 text-green-800 text-[10px] uppercase font-bold tracking-widest px-3.5 py-1 rounded-full border border-green-200">
+        ✓ Verified Account Active
+      </span>
+    </div>
+    <div class="border-t pt-4">
+      <button onclick="handleUserLogout()" class="w-full py-3 border border-red-200 text-red-600 rounded-full font-label-md uppercase tracking-wider font-bold text-xs hover:bg-red-50 transition-all">
+        Sign Out Account
+      </button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- 9. Dedicated Customer Feedback Section -->
+<section class="py-20 bg-surface-container-low border-t border-outline-variant/30" id="feedback">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+  <div class="max-w-3xl mx-auto bg-white p-10 md:p-12 rounded-3xl luxury-shadow border border-outline-variant/20">
+    <div class="text-center mb-8">
+      <span class="bg-secondary/15 text-secondary text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full inline-block mb-3">💬 Customer Feedback</span>
+      <h2 class="font-headline-lg text-3xl font-bold text-primary mb-2">Share Your Feedback & Suggestions</h2>
+      <p class="text-on-surface-variant font-body-md text-sm">Your experience matters to us! Submit your feedback below — it will be delivered directly to the store owner at <strong class="text-secondary">zaibbabar54@gmail.com</strong>.</p>
+      <div class="w-20 h-1 bg-secondary mx-auto mt-4 rounded-full"></div>
+    </div>
+
+    <form onsubmit="handleFeedbackSubmit(event)" class="space-y-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <label class="text-xs font-bold uppercase tracking-wider text-gray-700 block mb-1.5">Your Full Name *</label>
+          <input type="text" id="fb-name" required placeholder="e.g. Usman Khan" class="w-full px-4 py-3.5 rounded-xl border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm">
+        </div>
+        <div>
+          <label class="text-xs font-bold uppercase tracking-wider text-gray-700 block mb-1.5">Email Address *</label>
+          <input type="email" id="fb-email" required placeholder="name@example.com" class="w-full px-4 py-3.5 rounded-xl border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm">
+        </div>
+      </div>
+
+      <div>
+        <label class="text-xs font-bold uppercase tracking-wider text-gray-700 block mb-1.5">Product & Service Rating *</label>
+        <select id="fb-rating" required class="w-full px-4 py-3.5 rounded-xl border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm bg-white font-medium text-primary">
+          <option value="5 Stars - Outstanding Quality (⭐⭐⭐⭐⭐)">⭐⭐⭐⭐⭐ 5 Stars - Outstanding Quality</option>
+          <option value="4 Stars - Very Good (⭐⭐⭐⭐)">⭐⭐⭐⭐ 4 Stars - Very Good</option>
+          <option value="3 Stars - Good (⭐⭐⭐)">⭐⭐⭐ 3 Stars - Average / Good</option>
+          <option value="2 Stars - Needs Improvement (⭐⭐)">⭐⭐ 2 Stars - Needs Improvement</option>
+          <option value="1 Star - Poor (⭐)">⭐ 1 Star - Poor</option>
+        </select>
+      </div>
+
+      <div>
+        <label class="text-xs font-bold uppercase tracking-wider text-gray-700 block mb-1.5">Your Detailed Feedback / Review *</label>
+        <textarea id="fb-message" required rows="4" placeholder="Tell us about the taste, packaging, delivery speed, or any suggestions you have..." class="w-full px-4 py-3.5 rounded-xl border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm resize-none"></textarea>
+      </div>
+
+      <button type="submit" id="fb-submit-btn" class="w-full py-4 bg-primary text-white rounded-full font-label-md uppercase tracking-wider font-bold text-xs hover:bg-secondary transition-all shadow-lg active:scale-95 flex items-center justify-center gap-2">
+        <span class="material-symbols-outlined text-sm">send</span>
+        <span>Submit Feedback to zaibbabar54@gmail.com</span>
+      </button>
+    </form>
+  </div>
+</div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-primary pt-16 pb-8 text-on-primary">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-gutter mb-16">
+<div class="col-span-1 md:col-span-1">
+<a class="font-headline-lg text-secondary-fixed text-2xl font-bold mb-4 block" href="#">Desi Taste Land</a>
+<p class="text-xs text-gray-400 leading-relaxed mb-4">Delivering 100% pure, natural, and authentic Pakistani heritage food products right to your doorstep.</p>
+</div>
+<div class="md:ml-auto">
+<h4 class="font-label-md uppercase tracking-widest text-on-primary mb-6 font-bold">Quick Links</h4>
+<ul class="space-y-4 text-sm">
+<li><a class="text-on-primary-container hover:text-white transition-colors" href="#best-sellers">Best Sellers</a></li>
+<li><a class="text-on-primary-container hover:text-white transition-colors" href="#categories">Pantry Categories</a></li>
+<li><a class="text-on-primary-container hover:text-white transition-colors" href="#products">All Products</a></li>
+<li><a class="text-on-primary-container hover:text-white transition-colors" href="#about">About Our Heritage</a></li>
+</ul>
+</div>
+<div class="md:ml-auto">
+<h4 class="font-label-md uppercase tracking-widest text-on-primary mb-6 font-bold">Shop By</h4>
+<ul class="space-y-4 text-sm">
+<li><a class="text-on-primary-container hover:text-white transition-colors" href="#products">Pure Honey</a></li>
+<li><a class="text-on-primary-container hover:text-white transition-colors" href="#products">Desi Ghee</a></li>
+<li><a class="text-on-primary-container hover:text-white transition-colors" href="#products">Traditional Pickles</a></li>
+<li><a class="text-on-primary-container hover:text-white transition-colors" href="#products">Cold Pressed Oils</a></li>
+</ul>
+</div>
+<div class="md:ml-auto">
+<h4 class="font-label-md uppercase tracking-widest text-on-primary mb-6 font-bold">Newsletter</h4>
+<p class="text-sm text-on-primary-container mb-6">Join our heritage club for exclusive offers and fresh organic arrivals.</p>
+<form onsubmit="handleNewsletter(event)" class="flex flex-col gap-3">
+<input required class="bg-primary-container border border-outline text-white px-6 py-3 rounded-full focus:ring-1 focus:ring-secondary-fixed text-sm outline-none" placeholder="Email address" type="email">
+<button class="bg-secondary-fixed text-on-secondary-fixed py-3 rounded-full font-label-md uppercase tracking-wider text-xs font-bold hover:bg-white transition-all shadow-md">Subscribe</button>
+</form>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop border-t border-on-primary-container/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="font-body-md text-on-primary-container text-sm">© 2026 Desi Taste Land. Artisanal Pakistani Heritage. All Rights Reserved.</p>
+<div class="flex gap-4 text-xs text-gray-400">
+  <span>Cash on Delivery</span> &bull; <span>WhatsApp Direct Orders</span> &bull; <span>Nationwide Shipping</span>
+</div>
+</div>
+</footer>
+
+
+<!-- ==================== Dynamic Cart Drawer (Slide-Over) ==================== -->
+<div id="cart-drawer-overlay" class="fixed inset-0 bg-black/60 z-50 hidden opacity-0 drawer-overlay backdrop-blur-sm" onclick="closeCartDrawer()">
+  <div id="cart-drawer-content" class="absolute top-0 right-0 w-full max-w-md h-full bg-white shadow-2xl flex flex-col justify-between drawer-content translate-x-full" onclick="event.stopPropagation()">
+    <!-- Header -->
+    <div class="p-6 border-b flex justify-between items-center bg-surface-container-low">
+      <div class="flex items-center gap-2">
+        <span class="material-symbols-outlined text-secondary">shopping_bag</span>
+        <h3 class="font-headline-lg text-xl text-primary font-bold">Your Shopping Cart</h3>
+        <span id="drawer-item-count" class="bg-secondary text-white text-xs font-bold px-2 py-0.5 rounded-full">0</span>
+      </div>
+      <button onclick="closeCartDrawer()" class="material-symbols-outlined text-gray-500 hover:text-black transition-colors">close</button>
+    </div>
+
+    <!-- Items List -->
+    <div id="cart-items-container" class="p-6 flex-grow overflow-y-auto space-y-4 divide-y divide-gray-100">
+      <!-- Items dynamically injected here -->
+    </div>
+
+    <!-- Footer Summary & Checkout Button -->
+    <div class="p-6 border-t bg-surface-container-lowest space-y-4 shadow-lg">
+      <div class="space-y-2 text-sm">
+        <div class="flex justify-between text-gray-600">
+          <span>Subtotal</span>
+          <span id="cart-subtotal" class="font-bold text-gray-900">Rs. 0</span>
+        </div>
+        <div class="flex justify-between text-gray-600">
+          <span>Shipping (Pakistan Flat Delivery)</span>
+          <span id="cart-shipping" class="font-bold text-gray-900">Rs. 200</span>
+        </div>
+        <div class="text-[11px] text-green-600 flex items-center gap-1 font-medium">
+          <span class="material-symbols-outlined text-sm">local_shipping</span>
+          Free delivery on orders above Rs. 3,000!
+        </div>
+        <div class="flex justify-between text-lg font-bold text-primary border-t pt-2">
+          <span>Total Amount</span>
+          <span id="cart-total" class="text-secondary font-headline-lg text-xl">Rs. 200</span>
+        </div>
+      </div>
+
+      <div class="space-y-2">
+        <button onclick="proceedFromDrawerToCheckout()" id="drawer-checkout-btn" class="w-full py-4 bg-primary text-white rounded-full font-label-md uppercase tracking-wider text-xs font-bold hover:bg-secondary transition-all shadow-lg flex items-center justify-center gap-2 active:scale-95">
+          <span>Proceed to Checkout</span>
+          <span class="material-symbols-outlined text-sm">arrow_forward</span>
+        </button>
+        <button onclick="closeCartDrawer()" class="w-full py-2 text-xs uppercase tracking-wider text-gray-500 hover:text-black font-semibold text-center">
+          Continue Shopping
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ==================== Interactive Checkout Modal ==================== -->
+<div id="checkout-modal-overlay" class="fixed inset-0 bg-black/70 z-50 hidden opacity-0 transition-opacity backdrop-blur-md flex items-center justify-center p-4 overflow-y-auto">
+  <div id="checkout-modal-content" class="bg-white w-full max-w-2xl rounded-2xl luxury-shadow overflow-hidden modal-content scale-95 opacity-0 my-8">
+    
+    <!-- Modal Header -->
+    <div class="bg-primary text-white p-6 flex justify-between items-center relative">
+      <div>
+        <span class="text-xs uppercase tracking-widest text-secondary-fixed font-bold">Desi Taste Land Checkout</span>
+        <h2 class="font-headline-lg text-2xl font-bold">Complete Your Order</h2>
+      </div>
+      <button onclick="closeCheckoutModal()" class="material-symbols-outlined text-gray-300 hover:text-white transition-colors">close</button>
+    </div>
+
+    <!-- Modal Body -->
+    <div class="p-6 md:p-8 space-y-8 max-h-[75vh] overflow-y-auto">
+      
+      <!-- Order Summary Card -->
+      <div class="bg-surface-container-low p-6 rounded-xl border border-gray-200">
+        <div class="flex justify-between items-center mb-4 border-b pb-3">
+          <h3 class="font-headline-lg text-lg font-bold text-primary flex items-center gap-2">
+            <span class="material-symbols-outlined text-secondary">receipt_long</span> Order Summary
+          </h3>
+          <span id="checkout-item-count-badge" class="text-xs text-gray-500 font-medium">0 items</span>
+        </div>
+        <div id="checkout-summary-items" class="space-y-3 max-h-48 overflow-y-auto pr-2 divide-y divide-gray-100 text-sm">
+          <!-- Summary items dynamically injected -->
+        </div>
+        <div class="border-t mt-4 pt-3 space-y-1.5 text-sm">
+          <div class="flex justify-between text-gray-600">
+            <span>Subtotal:</span>
+            <span id="checkout-subtotal" class="font-bold text-gray-800">Rs. 0</span>
+          </div>
+          <div class="flex justify-between text-gray-600">
+            <span>Nationwide Delivery Fee:</span>
+            <span id="checkout-shipping" class="font-bold text-gray-800">Rs. 200</span>
+          </div>
+          <div class="flex justify-between text-lg font-bold text-primary border-t pt-2">
+            <span>Grand Total (COD):</span>
+            <span id="checkout-grand-total" class="text-secondary font-headline-lg text-xl">Rs. 200</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Customer & Shipping Form -->
+      <form id="checkout-form" onsubmit="handlePlaceOrder(event)" class="space-y-6">
+        <div>
+          <h3 class="font-headline-lg text-lg font-bold text-primary mb-4 flex items-center gap-2">
+            <span class="material-symbols-outlined text-secondary">local_shipping</span> Shipping & Customer Details
+          </h3>
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs uppercase tracking-wider font-bold text-gray-700 mb-1">Full Name *</label>
+              <input type="text" id="cust-name" required placeholder="e.g. Ali Ahmed" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm">
+            </div>
+            <div>
+              <label class="block text-xs uppercase tracking-wider font-bold text-gray-700 mb-1">Mobile / WhatsApp Number *</label>
+              <input type="tel" id="cust-phone" required placeholder="0300 1234567" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+            <div class="md:col-span-2">
+              <label class="block text-xs uppercase tracking-wider font-bold text-gray-700 mb-1">Delivery Address *</label>
+              <input type="text" id="cust-address" required placeholder="House #, Street, Colony / Area" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm">
+            </div>
+            <div>
+              <label class="block text-xs uppercase tracking-wider font-bold text-gray-700 mb-1">City *</label>
+              <select id="cust-city" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm bg-white">
+                <option value="Lahore" selected>Lahore</option>
+                <option value="Karachi">Karachi</option>
+                <option value="Islamabad">Islamabad</option>
+                <option value="Rawalpindi">Rawalpindi</option>
+                <option value="Faisalabad">Faisalabad</option>
+                <option value="Multan">Multan</option>
+                <option value="Peshawar">Peshawar</option>
+                <option value="Quetta">Quetta</option>
+                <option value="Gujranwala">Gujranwala</option>
+                <option value="Sialkot">Sialkot</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Other">Other City</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="mt-4">
+            <label class="block text-xs uppercase tracking-wider font-bold text-gray-700 mb-1">Delivery Notes (Optional)</label>
+            <input type="text" id="cust-notes" placeholder="Special requests, landmark, preferred call timings..." class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm">
+          </div>
+        </div>
+
+        <!-- Payment Method Selection -->
+        <div>
+          <h3 class="font-headline-lg text-lg font-bold text-primary mb-3 flex items-center gap-2">
+            <span class="material-symbols-outlined text-secondary">payments</span> Payment Method
+          </h3>
+          <div class="grid grid-cols-1 gap-4">
+            <label class="flex items-center gap-3 p-4 border-2 border-secondary bg-secondary/5 rounded-xl cursor-pointer">
+              <input type="radio" name="payment-method" value="COD" checked class="text-secondary focus:ring-secondary">
+              <div>
+                <span class="font-bold text-sm text-primary block">Cash on Delivery (COD)</span>
+                <span class="text-xs text-gray-500">Pay cash upon parcel delivery</span>
+              </div>
+            </label>
+          </div>
+        </div>
+
+        <!-- Submit & Order Action Buttons -->
+        <div class="pt-4 border-t space-y-3">
+          <button type="submit" class="w-full py-4 bg-primary text-white rounded-full font-label-md uppercase tracking-[0.15em] font-bold text-sm hover:bg-secondary transition-all shadow-xl active:scale-95 flex items-center justify-center gap-2">
+            <span class="material-symbols-outlined">check_circle</span>
+            <span>Confirm Order (Cash on Delivery)</span>
+          </button>
+          
+          <button type="button" onclick="orderViaWhatsApp()" class="w-full py-3.5 bg-green-600 text-white rounded-full font-label-md uppercase tracking-wider font-bold text-xs hover:bg-green-700 transition-all shadow-md active:scale-95 flex items-center justify-center gap-2">
+            <span class="material-symbols-outlined text-base">chat</span>
+            <span>Quick Order via WhatsApp (+92 307 0016113)</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- ==================== Order Success Confirmation Modal ==================== -->
+<div id="success-modal-overlay" class="fixed inset-0 bg-black/80 z-50 hidden opacity-0 transition-opacity backdrop-blur-md flex items-center justify-center p-4">
+  <div class="bg-white w-full max-w-lg rounded-2xl luxury-shadow overflow-hidden p-8 text-center space-y-6">
+    <div class="w-20 h-20 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto shadow-inner">
+      <span class="material-symbols-outlined text-5xl">task_alt</span>
+    </div>
+    
+    <div>
+      <span class="text-xs uppercase tracking-widest text-secondary font-bold">Mubarak! Order Placed Successfully</span>
+      <h2 class="font-headline-lg text-2xl font-bold text-primary mt-1">Thank You For Your Order</h2>
+      <p class="text-xs text-gray-500 mt-1">Your order tracking reference: <span id="success-order-id" class="font-mono font-bold text-black bg-gray-100 px-2 py-0.5 rounded">#DTL-0000</span></p>
+    </div>
+
+    <div class="bg-surface-container-low p-4 rounded-xl text-left text-sm space-y-2 border">
+      <div class="flex justify-between border-b pb-2">
+        <span class="text-gray-500">Customer Name:</span>
+        <span id="success-name" class="font-bold text-gray-900">-</span>
+      </div>
+      <div class="flex justify-between border-b pb-2">
+        <span class="text-gray-500">Phone / WhatsApp:</span>
+        <span id="success-phone" class="font-bold text-gray-900">-</span>
+      </div>
+      <div class="flex justify-between border-b pb-2">
+        <span class="text-gray-500">Total Payable (COD):</span>
+        <span id="success-total" class="font-bold text-secondary font-headline-lg text-base">-</span>
+      </div>
+      <div class="flex justify-between">
+        <span class="text-gray-500">Estimated Delivery:</span>
+        <span class="font-bold text-green-700">2-4 Business Days</span>
+      </div>
+    </div>
+
+    <p class="text-xs text-gray-500">Our team will call or WhatsApp you to confirm shipment dispatch.</p>
+
+    <div class="space-y-3">
+      <button onclick="sendSuccessToWhatsApp()" class="w-full py-3.5 bg-green-600 text-white rounded-full font-label-md uppercase tracking-wider font-bold text-xs hover:bg-green-700 transition-all shadow-md flex items-center justify-center gap-2">
+        <span class="material-symbols-outlined text-sm">chat</span>
+        <span>Send Details on WhatsApp</span>
+      </button>
+      <button onclick="closeSuccessModal()" class="w-full py-3 border border-gray-300 text-gray-700 rounded-full font-label-md uppercase tracking-wider font-bold text-xs hover:bg-gray-100 transition-all">
+        Continue Shopping
+      </button>
+    </div>
+  </div>
+</div>
+
+
+<!-- ==================== Search Modal ==================== -->
+<div id="search-modal" class="fixed inset-0 bg-black/60 z-50 hidden backdrop-blur-sm flex items-start justify-center pt-24 px-4">
+  <div class="bg-white w-full max-w-xl rounded-2xl shadow-2xl overflow-hidden p-6 space-y-4">
+    <div class="flex justify-between items-center border-b pb-3">
+      <h3 class="font-headline-lg text-lg text-primary font-bold">Search Desi Taste Land</h3>
+      <button onclick="toggleSearchModal()" class="material-symbols-outlined text-gray-500">close</button>
+    </div>
+    <div class="relative">
+      <input type="text" id="search-input" onkeyup="handleSearchFilter()" placeholder="Search honey, desi ghee, pickle, olive oil, tea..." class="w-full px-4 py-3 pl-11 rounded-full border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm">
+      <span class="material-symbols-outlined absolute left-3.5 top-3 text-gray-400">search</span>
+    </div>
+    <div id="search-results" class="max-h-60 overflow-y-auto space-y-2 text-sm divide-y divide-gray-100">
+      <p class="text-xs text-gray-400 text-center py-4">Type to filter products above...</p>
+<!-- ==================== Auth Modal (Sign In / Sign Up with Email OTP) ==================== -->
+<div id="auth-modal-overlay" class="fixed inset-0 bg-black/60 z-50 hidden backdrop-blur-sm flex items-center justify-center p-4 transition-opacity opacity-0">
+  <div id="auth-modal-content" class="bg-white w-full max-w-md rounded-3xl shadow-2xl overflow-hidden p-8 space-y-6 transform scale-95 opacity-0 transition-all duration-300 relative border border-gray-100">
+    
+    <button onclick="closeAuthModal()" class="absolute top-5 right-5 w-9 h-9 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center text-gray-600 transition-colors">
+      <span class="material-symbols-outlined text-lg">close</span>
+    </button>
+
+    <div class="text-center space-y-1">
+      <div class="w-12 h-12 bg-secondary/15 rounded-full flex items-center justify-center mx-auto text-secondary mb-2">
+        <span class="material-symbols-outlined text-2xl">person</span>
+      </div>
+      <h3 class="font-headline-lg text-2xl font-bold text-primary" id="auth-modal-title">Welcome to Desi Taste Land</h3>
+      <p class="text-xs text-gray-500" id="auth-modal-subtitle">Sign in to your account or create a new one</p>
+    </div>
+
+    <!-- Tabs: Sign In / Sign Up -->
+    <div class="flex border-b border-gray-200" id="auth-tabs">
+      <button onclick="switchAuthTab('signin')" id="tab-signin-btn" class="flex-1 pb-3 text-sm font-bold uppercase tracking-wider text-secondary border-b-2 border-secondary transition-all">Sign In</button>
+      <button onclick="switchAuthTab('signup')" id="tab-signup-btn" class="flex-1 pb-3 text-sm font-bold uppercase tracking-wider text-gray-400 border-b-2 border-transparent hover:text-gray-600 transition-all">Sign Up</button>
+    </div>
+
+    <!-- Sign In Form -->
+    <form id="form-signin" onsubmit="handleSignInSubmit(event)" class="space-y-4">
+      <div>
+        <label class="text-xs font-bold uppercase tracking-wider text-gray-600 block mb-1">Email Address</label>
+        <input type="email" id="signin-email" required placeholder="your.email@example.com" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm">
+      </div>
+      <div>
+        <label class="text-xs font-bold uppercase tracking-wider text-gray-600 block mb-1">Password</label>
+        <input type="password" id="signin-password" required placeholder="••••••••" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm">
+      </div>
+      <button type="submit" class="w-full py-3.5 bg-primary text-white rounded-full font-label-md uppercase tracking-wider font-bold text-xs hover:bg-secondary transition-all shadow-md active:scale-95">
+        Sign In
+      </button>
+    </form>
+
+    <!-- Sign Up Form Step 1 (Enter Details) -->
+    <form id="form-signup-step1" onsubmit="handleSendSignupOTP(event)" class="space-y-4 hidden">
+      <div>
+        <label class="text-xs font-bold uppercase tracking-wider text-gray-600 block mb-1">Full Name</label>
+        <input type="text" id="signup-name" required placeholder="Ahmed Ali" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm">
+      </div>
+      <div>
+        <label class="text-xs font-bold uppercase tracking-wider text-gray-600 block mb-1">Email Address</label>
+        <input type="email" id="signup-email" required placeholder="your.email@example.com" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm">
+      </div>
+      <div>
+        <label class="text-xs font-bold uppercase tracking-wider text-gray-600 block mb-1">Create Password</label>
+        <input type="password" id="signup-password" minlength="6" required placeholder="At least 6 characters" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:border-secondary focus:ring-1 focus:ring-secondary outline-none text-sm">
+      </div>
+      <button type="submit" id="btn-send-otp" class="w-full py-3.5 bg-secondary text-white rounded-full font-label-md uppercase tracking-wider font-bold text-xs hover:bg-amber-700 transition-all shadow-md active:scale-95 flex items-center justify-center gap-2">
+        <span class="material-symbols-outlined text-sm">send</span>
+        <span>Send Verification Code to Email</span>
+      </button>
+    </form>
+
+    <!-- Sign Up Form Step 2 (Enter OTP Code) -->
+    <form id="form-signup-step2" onsubmit="handleVerifySignupOTP(event)" class="space-y-4 hidden">
+      <div class="bg-amber-50 p-4 rounded-2xl border border-amber-200 text-center space-y-1">
+        <span class="material-symbols-outlined text-secondary text-2xl">mark_email_read</span>
+        <p class="text-xs font-bold text-gray-800">Verification Code Sent!</p>
+        <p class="text-[11px] text-gray-600">We sent a 6-digit code to <strong id="otp-sent-email-display" class="text-secondary"></strong>. Please check your inbox.</p>
+      </div>
+
+      <div>
+        <label class="text-xs font-bold uppercase tracking-wider text-gray-600 block mb-1 text-center">Enter 6-Digit Code</label>
+        <input type="text" id="signup-otp-code" maxlength="6" pattern="[0-9]{6}" required placeholder="123456" class="w-full px-4 py-3 rounded-xl border border-secondary focus:ring-2 focus:ring-secondary outline-none text-center font-mono font-bold text-xl tracking-widest text-primary">
+      </div>
+
+      <button type="submit" class="w-full py-3.5 bg-green-600 text-white rounded-full font-label-md uppercase tracking-wider font-bold text-xs hover:bg-green-700 transition-all shadow-md active:scale-95">
+        Verify & Complete Sign Up
+      </button>
+
+      <button type="button" onclick="resetSignupStep()" class="w-full text-xs text-gray-500 hover:text-primary underline text-center block pt-1">
+        &larr; Change Email or Details
+      </button>
+    </form>
+
+    <!-- Logged In Profile Card (When user is signed in) -->
+    <div id="auth-profile-view" class="space-y-6 hidden text-center">
+      <div class="w-20 h-20 bg-secondary text-white rounded-full flex items-center justify-center mx-auto text-2xl font-bold font-headline-lg shadow-lg border-4 border-amber-100" id="profile-avatar-initials">
+        AA
+      </div>
+      <div>
+        <h4 class="font-headline-lg text-xl font-bold text-primary" id="profile-display-name">Ahmed Ali</h4>
+        <p class="text-xs text-gray-500" id="profile-display-email">ahmed@example.com</p>
+        <span class="inline-block mt-2 bg-green-100 text-green-800 text-[10px] uppercase font-bold tracking-widest px-3 py-1 rounded-full">✓ Verified Account</span>
+      </div>
+      <div class="border-t pt-4 space-y-2">
+        <button onclick="handleUserLogout()" class="w-full py-3 border border-red-200 text-red-600 rounded-full font-label-md uppercase tracking-wider font-bold text-xs hover:bg-red-50 transition-all">
+          Sign Out
+        </button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- JavaScript Application Logic -->
+<script>
+
+// Global Cart Statepersisted in localStorage
+let cart = JSON.parse(localStorage.getItem('dtl_cart') || '[]');
+let currentOrderData = null;
+
+// ============================================================
+// ORDER NOTIFICATION SYSTEM (formsubmit.co — No Account Needed)
+// When any customer orders, an automatic email goes to owner.
+// FIRST ORDER: Owner gets a verification email → just click Confirm.
+// After that: Every order = instant email. Done!
+// ============================================================
+const OWNER_NOTIFICATION_EMAIL = 'zaibbabar54@gmail.com';
+
+// Send automatic order notification email to owner via formsubmit.co
+function sendOrderNotificationEmail(order) {
+    const itemsList = order.items.map(i =>
+        `${i.title}${i.size ? ' (' + i.size + ')' : ''} x${i.quantity} = Rs. ${(i.price * i.quantity).toLocaleString()}`
+    ).join('\n');
+
+    const emailBody = [
+        `🛒 NEW ORDER RECEIVED - Desi Taste Land`,
+        `━━━━━━━━━━━━━━━━━━━━━━━━━━━━`,
+        `Order ID   : ${order.orderId}`,
+        `━━━━━━━━━━━━━━━━━━━━━━━━━━━━`,
+        `👤 CUSTOMER DETAILS`,
+        `Name       : ${order.name}`,
+        `Phone      : ${order.phone}`,
+        `City       : ${order.city}`,
+        `Address    : ${order.address}`,
+        `Notes      : ${order.notes || 'None'}`,
+        `━━━━━━━━━━━━━━━━━━━━━━━━━━━━`,
+        `🛍️ ORDER ITEMS`,
+        itemsList,
+        `━━━━━━━━━━━━━━━━━━━━━━━━━━━━`,
+        `💰 Payment : ${order.payment}`,
+        `💵 TOTAL   : Rs. ${order.total.toLocaleString()}`,
+        `━━━━━━━━━━━━━━━━━━━━━━━━━━━━`,
+        `⚡ Please process this order immediately!`
+    ].join('\n');
+
+    // POST to formsubmit.co (silent for customer)
+    fetch(`https://formsubmit.co/ajax/${OWNER_NOTIFICATION_EMAIL}`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+            _subject: `🛒 New Order ${order.orderId} from ${order.name} - Desi Taste Land`,
+            name: order.name,
+            phone: order.phone,
+            city: order.city,
+            address: order.address,
+            items: itemsList,
+            total: `Rs. ${order.total.toLocaleString()}`,
+            payment: order.payment,
+            notes: order.notes || 'None',
+            order_id: order.orderId,
+            message: emailBody,
+            _template: 'table'
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+        console.log('✅ Order notification sent to zaibbabar54@gmail.com', data);
+    })
+    .catch(err => {
+        console.warn('📧 Notification error:', err);
+    });
+}
+
+
+// ============================================================
+// AUTHENTICATION SYSTEM (Sign In / Sign Up with Email Verification OTP)
+// ============================================================
+let currentOTP = null;
+let pendingUserData = null;
+let currentUser = JSON.parse(localStorage.getItem('dtl_current_user') || 'null');
+
+function updateAuthUI() {
+    currentUser = JSON.parse(localStorage.getItem('dtl_current_user') || 'null');
+    const nameEl = document.getElementById('nav-user-name');
+    if (nameEl) {
+        if (currentUser) {
+            nameEl.innerText = currentUser.name.split(' ')[0];
+        } else {
+            nameEl.innerText = '';
+        }
+    }
+    updateOnpageAuthUI();
+}
+
+// On-Page Account Portal Logic
+function updateOnpageAuthUI() {
+    currentUser = JSON.parse(localStorage.getItem('dtl_current_user') || 'null');
+    const tabs = document.getElementById('onpage-auth-tabs');
+    const step1 = document.getElementById('onpage-signup-step1');
+    const step2 = document.getElementById('onpage-signup-step2');
+    const signin = document.getElementById('onpage-signin');
+    const profile = document.getElementById('onpage-profile-view');
+
+    if (!tabs || !profile) return;
+
+    if (currentUser) {
+        tabs.classList.add('hidden');
+        step1.classList.add('hidden');
+        step2.classList.add('hidden');
+        signin.classList.add('hidden');
+        profile.classList.remove('hidden');
+
+        document.getElementById('onpage-profile-name').innerText = currentUser.name;
+        document.getElementById('onpage-profile-email').innerText = currentUser.email;
+        const initials = currentUser.name.split(' ').map(n => n[0]).join('').toUpperCase().substring(0, 2);
+        document.getElementById('onpage-profile-initials').innerText = initials || 'U';
+        document.getElementById('onpage-auth-title').innerText = 'Welcome, ' + currentUser.name.split(' ')[0] + '!';
+        document.getElementById('onpage-auth-subtitle').innerText = 'Your verified account is active';
+    } else {
+        tabs.classList.remove('hidden');
+        profile.classList.add('hidden');
+        document.getElementById('onpage-auth-title').innerText = 'Customer Account Portal';
+        document.getElementById('onpage-auth-subtitle').innerText = 'Sign up with email code or log in to your account';
+    }
+}
+
+function switchOnpageTab(tab) {
+    const signupBtn = document.getElementById('onpage-tab-signup-btn');
+    const signinBtn = document.getElementById('onpage-tab-signin-btn');
+    const step1 = document.getElementById('onpage-signup-step1');
+    const step2 = document.getElementById('onpage-signup-step2');
+    const signin = document.getElementById('onpage-signin');
+
+    if (tab === 'signup') {
+        signupBtn.className = 'flex-1 pb-3 text-sm font-bold uppercase tracking-wider text-secondary border-b-2 border-secondary transition-all';
+        signinBtn.className = 'flex-1 pb-3 text-sm font-bold uppercase tracking-wider text-gray-400 border-b-2 border-transparent hover:text-gray-600 transition-all';
+        signin.classList.add('hidden');
+        if (currentOTP && pendingUserData) {
+            step2.classList.remove('hidden');
+            step1.classList.add('hidden');
+        } else {
+            step1.classList.remove('hidden');
+            step2.classList.add('hidden');
+        }
+    } else {
+        signinBtn.className = 'flex-1 pb-3 text-sm font-bold uppercase tracking-wider text-secondary border-b-2 border-secondary transition-all';
+        signupBtn.className = 'flex-1 pb-3 text-sm font-bold uppercase tracking-wider text-gray-400 border-b-2 border-transparent hover:text-gray-600 transition-all';
+        signin.classList.remove('hidden');
+        step1.classList.add('hidden');
+        step2.classList.add('hidden');
+    }
+}
+
+function handleOnpageSendOTP(e) {
+    e.preventDefault();
+    const name = document.getElementById('onpage-signup-name').value.trim();
+    const email = document.getElementById('onpage-signup-email').value.trim().toLowerCase();
+    const password = document.getElementById('onpage-signup-password').value;
+
+    const users = JSON.parse(localStorage.getItem('dtl_users') || '[]');
+    if (users.some(u => u.email === email)) {
+        showToast('An account with this email already exists! Please Sign In.');
+        switchOnpageTab('signin');
+        document.getElementById('onpage-signin-email').value = email;
+        return;
+    }
+
+    currentOTP = Math.floor(100000 + Math.random() * 900000).toString();
+    pendingUserData = { name, email, password };
+
+    const btn = document.getElementById('onpage-btn-send-otp');
+    btn.disabled = true;
+    btn.innerText = 'Sending Verification Code...';
+
+    fetch(`https://formsubmit.co/ajax/${email}`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+            _subject: `🔑 Your Verification Code: ${currentOTP} - Desi Taste Land`,
+            name: name,
+            verification_code: currentOTP,
+            message: `Hello ${name},\n\nYour 6-digit verification code for Desi Taste Land is: ${currentOTP}\n\nEnter this code to create your verified customer account.\n\nDesi Taste Land Team`
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+        btn.disabled = false;
+        btn.innerHTML = `<span class="material-symbols-outlined text-sm">send</span><span>Send Verification Code to Email</span>`;
+        document.getElementById('onpage-sent-email-display').innerText = email;
+        document.getElementById('onpage-signup-step1').classList.add('hidden');
+        document.getElementById('onpage-signup-step2').classList.remove('hidden');
+        showToast(`Verification code sent to ${email}`);
+    })
+    .catch(err => {
+        btn.disabled = false;
+        btn.innerHTML = `<span class="material-symbols-outlined text-sm">send</span><span>Send Verification Code to Email</span>`;
+        document.getElementById('onpage-sent-email-display').innerText = email;
+        document.getElementById('onpage-signup-step1').classList.add('hidden');
+        document.getElementById('onpage-signup-step2').classList.remove('hidden');
+        showToast(`Verification code sent to ${email}`);
+    });
+}
+
+function handleOnpageVerifyOTP(e) {
+    e.preventDefault();
+    const enteredOTP = document.getElementById('onpage-otp-code').value.trim();
+
+    if (enteredOTP !== currentOTP) {
+        showToast('Invalid verification code! Check your email inbox.');
+        return;
+    }
+
+    const users = JSON.parse(localStorage.getItem('dtl_users') || '[]');
+    const newUser = {
+        id: 'usr_' + Date.now(),
+        name: pendingUserData.name,
+        email: pendingUserData.email,
+        password: pendingUserData.password,
+        createdAt: new Date().toISOString()
+    };
+    users.push(newUser);
+    localStorage.setItem('dtl_users', JSON.stringify(users));
+    localStorage.setItem('dtl_current_user', JSON.stringify(newUser));
+
+    updateAuthUI();
+    currentOTP = null;
+    pendingUserData = null;
+    showToast(`Account verified & created! Welcome ${newUser.name}!`);
+}
+
+function resetOnpageSignupStep() {
+    currentOTP = null;
+    pendingUserData = null;
+    document.getElementById('onpage-signup-step2').classList.add('hidden');
+    document.getElementById('onpage-signup-step1').classList.remove('hidden');
+}
+
+function handleOnpageSignIn(e) {
+    e.preventDefault();
+    const email = document.getElementById('onpage-signin-email').value.trim().toLowerCase();
+    const password = document.getElementById('onpage-signin-password').value;
+
+    const users = JSON.parse(localStorage.getItem('dtl_users') || '[]');
+    const user = users.find(u => u.email === email && u.password === password);
+
+    if (!user) {
+        showToast('Invalid email or password! Please check or Sign Up.');
+        return;
+    }
+
+    localStorage.setItem('dtl_current_user', JSON.stringify(user));
+    updateAuthUI();
+    showToast(`Welcome back, ${user.name}!`);
+}
+
+// Dedicated Feedback Submission to zaibbabar54@gmail.com
+function handleFeedbackSubmit(e) {
+    e.preventDefault();
+    const name = document.getElementById('fb-name').value.trim();
+    const email = document.getElementById('fb-email').value.trim();
+    const rating = document.getElementById('fb-rating').value;
+    const message = document.getElementById('fb-message').value.trim();
+
+    const btn = document.getElementById('fb-submit-btn');
+    btn.disabled = true;
+    btn.innerText = 'Submitting Feedback...';
+
+    const feedbackBody = [
+        `💬 NEW CUSTOMER FEEDBACK RECEIVED - Desi Taste Land`,
+        `━━━━━━━━━━━━━━━━━━━━━━━━━━━━`,
+        `Customer Name  : ${name}`,
+        `Customer Email : ${email}`,
+        `Product Rating : ${rating}`,
+        `━━━━━━━━━━━━━━━━━━━━━━━━━━━━`,
+        `Feedback Message:`,
+        `${message}`,
+        `━━━━━━━━━━━━━━━━━━━━━━━━━━━━`
+    ].join('\n');
+
+    fetch(`https://formsubmit.co/ajax/zaibbabar54@gmail.com`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+            _subject: `💬 New Feedback (${rating.substring(0,7)}) from ${name} - Desi Taste Land`,
+            name: name,
+            email: email,
+            rating: rating,
+            feedback: message,
+            message: feedbackBody
+        })
+    })
+    .then(res => res.json())
+    .then(data => {
+        console.log('✅ Feedback sent to zaibbabar54@gmail.com', data);
+        btn.disabled = false;
+        btn.innerHTML = `<span class="material-symbols-outlined text-sm">send</span><span>Submit Feedback to zaibbabar54@gmail.com</span>`;
+        showToast('Thank you! Your feedback has been sent to owner.');
+        e.target.reset();
+    })
+    .catch(err => {
+        console.warn('Feedback error:', err);
+        btn.disabled = false;
+        btn.innerHTML = `<span class="material-symbols-outlined text-sm">send</span><span>Submit Feedback to zaibbabar54@gmail.com</span>`;
+        showToast('Thank you! Your feedback has been received.');
+        e.target.reset();
+    });
+}
+
+
+function handleUserLogout() {
+    localStorage.removeItem('dtl_current_user');
+    updateAuthUI();
+    closeAuthModal();
+    showToast('Signed out successfully');
+}
+
+
+// Initial Load Setup
+document.addEventListener('DOMContentLoaded', () => {
+    updateCartUI();
+    updateAuthUI();
+});
+
+
+
+// Save Cart to LocalStorage
+function saveCart() {
+    localStorage.setItem('dtl_cart', JSON.stringify(cart));
+    updateCartUI();
+}
+
+// Add Item to Cart
+function addToCart(product) {
+    const qty = product.quantity || 1;
+    const existingIndex = cart.findIndex(item => item.id === product.id);
+    
+    if (existingIndex > -1) {
+        cart[existingIndex].quantity += qty;
+    } else {
+        cart.push({
+            id: product.id,
+            title: product.title,
+            price: product.price,
+            size: product.size || '',
+            image: product.image,
+            quantity: qty
+        });
+    }
+    
+    saveCart();
+    showToast(`Added ${qty}x ${product.title} to cart!`);
+}
+
+// Add to Cart directly from Card counter
+function addToCartFromCard(id, title, price, size, image) {
+    const qtyEl = document.getElementById(`qty-${id}`);
+    const qty = qtyEl ? parseInt(qtyEl.innerText) || 1 : 1;
+    addToCart({ id, title, price, size, image, quantity: qty });
+}
+
+// Buy Now Functionality: Adds to cart & opens Checkout immediately!
+function buyNow(product) {
+    addToCart(product);
+    openCheckoutModal();
+}
+
+function buyNowFromCard(id, title, price, size, image) {
+    const qtyEl = document.getElementById(`qty-${id}`);
+    const qty = qtyEl ? parseInt(qtyEl.innerText) || 1 : 1;
+    addToCart({ id, title, price, size, image, quantity: qty });
+    openCheckoutModal();
+}
+
+// Product Quantity Counter +/- logic on cards
+function updateQty(productId, delta) {
+    const qtyEl = document.getElementById(`qty-${productId}`);
+    if (!qtyEl) return;
+    let val = parseInt(qtyEl.innerText) || 1;
+    val += delta;
+    if (val < 1) val = 1;
+    qtyEl.innerText = val;
+}
+
+// Remove item from Cart
+function removeFromCart(id) {
+    cart = cart.filter(item => item.id !== id);
+    saveCart();
+    showToast('Item removed from cart');
+}
+
+// Update Cart Quantity inside Drawer
+function updateCartItemQty(id, delta) {
+    const item = cart.find(i => i.id === id);
+    if (item) {
+        item.quantity += delta;
+        if (item.quantity <= 0) {
+            removeFromCart(id);
+        } else {
+            saveCart();
+        }
+    }
+}
+
+// Calculate Totals
+function getCartTotals() {
+    const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+    // Free shipping above 3000, flat 150 otherwise
+    const shipping = (subtotal >= 3000 || subtotal === 0) ? 0 : 150;
+    const total = subtotal + shipping;
+    const count = cart.reduce((sum, item) => sum + item.quantity, 0);
+    return { subtotal, shipping, total, count };
+}
+
+
+// Render Cart Badges & Drawer UI
+function updateCartUI() {
+    const { subtotal, shipping, total, count } = getCartTotals();
+    
+    // Badges
+    const badge = document.getElementById('cart-badge');
+    const mobileBadge = document.getElementById('mobile-cart-count');
+    const drawerBadge = document.getElementById('drawer-item-count');
+    const summaryBadge = document.getElementById('checkout-item-count-badge');
+
+    if (badge) badge.innerText = count;
+    if (mobileBadge) mobileBadge.innerText = count;
+    if (drawerBadge) drawerBadge.innerText = count;
+    if (summaryBadge) summaryBadge.innerText = `${count} items`;
+
+    // Drawer Amounts
+    const subtotalEl = document.getElementById('cart-subtotal');
+    const shippingEl = document.getElementById('cart-shipping');
+    const totalEl = document.getElementById('cart-total');
+
+    if (subtotalEl) subtotalEl.innerText = `Rs. ${subtotal.toLocaleString()}`;
+    if (shippingEl) shippingEl.innerText = shipping === 0 ? 'FREE' : `Rs. ${shipping}`;
+    if (totalEl) totalEl.innerText = `Rs. ${total.toLocaleString()}`;
+
+    // Render Drawer Items List
+    const itemsContainer = document.getElementById('cart-items-container');
+    if (itemsContainer) {
+        if (cart.length === 0) {
+            itemsContainer.innerHTML = `
+                <div class="text-center py-12 space-y-3">
+                    <span class="material-symbols-outlined text-5xl text-gray-300">shopping_bag</span>
+                    <p class="text-gray-500 font-headline-lg text-lg">Your cart is empty</p>
+                    <button onclick="closeCartDrawer()" class="px-6 py-2 bg-primary text-white text-xs uppercase font-bold rounded-full">Explore Products</button>
+                </div>
+            `;
+        } else {
+            itemsContainer.innerHTML = cart.map(item => `
+                <div class="flex items-center gap-4 pt-3">
+                    <img src="${item.image}" alt="${item.title}" class="w-16 h-16 object-cover rounded-lg bg-gray-50 border">
+                    <div class="flex-grow">
+                        <h4 class="font-headline-lg text-sm font-bold text-primary">${item.title}</h4>
+                        <p class="text-xs text-gray-500">${item.size ? item.size + ' &bull; ' : ''}Rs. ${item.price.toLocaleString()}</p>
+                        <div class="flex items-center gap-2 mt-2">
+                            <div class="flex items-center border rounded-full text-xs">
+                                <button onclick="updateCartItemQty('${item.id}', -1)" class="w-6 h-6 flex items-center justify-center text-gray-600 font-bold">-</button>
+                                <span class="w-6 text-center font-bold">${item.quantity}</span>
+                                <button onclick="updateCartItemQty('${item.id}', 1)" class="w-6 h-6 flex items-center justify-center text-gray-600 font-bold">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <p class="font-bold text-sm text-secondary">Rs. ${(item.price * item.quantity).toLocaleString()}</p>
+                        <button onclick="removeFromCart('${item.id}')" class="text-red-400 hover:text-red-600 text-xs mt-1" title="Remove">
+                            <span class="material-symbols-outlined text-sm">delete</span>
+                        </button>
+                    </div>
+                </div>
+            `).join('');
+        }
+    }
+}
+
+// Open & Close Cart Drawer
+function openCartDrawer() {
+    const overlay = document.getElementById('cart-drawer-overlay');
+    const content = document.getElementById('cart-drawer-content');
+    overlay.classList.remove('hidden');
+    setTimeout(() => {
+        overlay.classList.remove('opacity-0');
+        content.classList.remove('translate-x-full');
+    }, 10);
+}
+
+function closeCartDrawer() {
+    const overlay = document.getElementById('cart-drawer-overlay');
+    const content = document.getElementById('cart-drawer-content');
+    content.classList.add('translate-x-full');
+    overlay.classList.add('opacity-0');
+    setTimeout(() => {
+        overlay.classList.add('hidden');
+    }, 300);
+}
+
+function proceedFromDrawerToCheckout() {
+    closeCartDrawer();
+    openCheckoutModal();
+}
+
+// Open & Close Checkout Modal
+function openCheckoutModal() {
+    if (cart.length === 0) {
+        showToast('Please add products to your cart first');
+        return;
+    }
+
+    const { subtotal, shipping, total } = getCartTotals();
+    
+    // Render Order Summary Items
+    const summaryEl = document.getElementById('checkout-summary-items');
+    if (summaryEl) {
+        summaryEl.innerHTML = cart.map(item => `
+            <div class="flex justify-between items-center py-2">
+                <div class="flex items-center gap-3">
+                    <img src="${item.image}" class="w-10 h-10 object-cover rounded border">
+                    <div>
+                        <p class="font-bold text-gray-800 text-xs">${item.title}</p>
+                        <p class="text-[11px] text-gray-500">Qty: ${item.quantity} x Rs. ${item.price.toLocaleString()}</p>
+                    </div>
+                </div>
+                <span class="font-bold text-xs text-primary">Rs. ${(item.price * item.quantity).toLocaleString()}</span>
+            </div>
+        `).join('');
+    }
+
+    document.getElementById('checkout-subtotal').innerText = `Rs. ${subtotal.toLocaleString()}`;
+    document.getElementById('checkout-shipping').innerText = shipping === 0 ? 'FREE' : `Rs. ${shipping}`;
+    document.getElementById('checkout-grand-total').innerText = `Rs. ${total.toLocaleString()}`;
+
+    const overlay = document.getElementById('checkout-modal-overlay');
+    const content = document.getElementById('checkout-modal-content');
+    overlay.classList.remove('hidden');
+    setTimeout(() => {
+        overlay.classList.remove('opacity-0');
+        content.classList.remove('scale-95', 'opacity-0');
+    }, 10);
+}
+
+function closeCheckoutModal() {
+    const overlay = document.getElementById('checkout-modal-overlay');
+    const content = document.getElementById('checkout-modal-content');
+    content.classList.add('scale-95', 'opacity-0');
+    overlay.classList.add('opacity-0');
+    setTimeout(() => {
+        overlay.classList.add('hidden');
+    }, 300);
+}
+
+// Handle Order Submission
+function handlePlaceOrder(e) {
+    e.preventDefault();
+    const name = document.getElementById('cust-name').value.trim();
+    const phone = document.getElementById('cust-phone').value.trim();
+    const address = document.getElementById('cust-address').value.trim();
+    const city = document.getElementById('cust-city').value;
+    const notes = document.getElementById('cust-notes').value.trim();
+    const payment = document.querySelector('input[name="payment-method"]:checked').value;
+    const { total } = getCartTotals();
+
+    const orderId = 'DTL-' + Math.floor(10000 + Math.random() * 90000);
+    const now = new Date();
+    const createdAtFormatted = now.toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true });
+
+    currentOrderData = {
+        orderId,
+        timestamp: Date.now(),
+        createdAtFormatted,
+        name,
+        phone,
+        address,
+        city,
+        notes,
+        payment,
+        total,
+        items: [...cart],
+        status: 'Active'
+    };
+
+    // Persist order in dtl_orders localStorage
+    let savedOrders = JSON.parse(localStorage.getItem('dtl_orders') || '[]');
+    savedOrders.unshift(currentOrderData);
+    localStorage.setItem('dtl_orders', JSON.stringify(savedOrders));
+    renderOrdersUI();
+
+    // Close checkout modal & open success modal
+    closeCheckoutModal();
+    
+    // Clear Cart after successful order
+    cart = [];
+    saveCart();
+
+    setTimeout(() => {
+        openSuccessModal(currentOrderData);
+        // Send silent email notification to owner (customer sees nothing)
+        sendOrderNotificationEmail(currentOrderData);
+    }, 350);
+}
+
+// Quick Order directly via WhatsApp
+function orderViaWhatsApp() {
+    const name = document.getElementById('cust-name').value.trim() || 'Valued Customer';
+    const phone = document.getElementById('cust-phone').value.trim() || 'N/A';
+    const address = document.getElementById('cust-address').value.trim() || 'N/A';
+    const city = document.getElementById('cust-city').value;
+    const { subtotal, shipping, total } = getCartTotals();
+
+    const orderId = 'DTL-' + Math.floor(10000 + Math.random() * 90000);
+    const now = new Date();
+    const createdAtFormatted = now.toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true });
+
+    const whatsappOrder = {
+        orderId,
+        timestamp: Date.now(),
+        createdAtFormatted,
+        name,
+        phone,
+        address,
+        city,
+        notes: '',
+        payment: 'COD (WhatsApp)',
+        total,
+        items: [...cart],
+        status: 'Active'
+    };
+
+    let savedOrders = JSON.parse(localStorage.getItem('dtl_orders') || '[]');
+    savedOrders.unshift(whatsappOrder);
+    localStorage.setItem('dtl_orders', JSON.stringify(savedOrders));
+    renderOrdersUI();
+
+    let itemsText = cart.map(i => `• ${i.title} (${i.size}) x ${i.quantity} = Rs. ${i.price * i.quantity}`).join('%0A');
+    
+    let message = `*New Order - Desi Taste Land*%0A%0A` +
+                  `*Order ID: #${orderId}*%0A` +
+                  `*Customer Details:*%0A` +
+                  `Name: ${name}%0A` +
+                  `Phone: ${phone}%0A` +
+                  `City: ${city}%0A` +
+                  `Address: ${address}%0A%0A` +
+                  `*Order Items:*%0A${itemsText}%0A%0A` +
+                  `Subtotal: Rs. ${subtotal}%0A` +
+                  `Shipping: Rs. ${shipping}%0A` +
+                  `*Grand Total: Rs. ${total} (COD)*`;
+
+    cart = [];
+    saveCart();
+    closeCheckoutModal();
+
+    window.open(`https://wa.me/923070016113?text=${message}`, '_blank');
+}
+
+// Order Success Modal
+function openSuccessModal(order) {
+    document.getElementById('success-order-id').innerText = `#${order.orderId}`;
+    document.getElementById('success-name').innerText = order.name;
+    document.getElementById('success-phone').innerText = order.phone;
+    document.getElementById('success-total').innerText = `Rs. ${order.total.toLocaleString()} (${order.payment})`;
+
+    const overlay = document.getElementById('success-modal-overlay');
+    overlay.classList.remove('hidden');
+    setTimeout(() => {
+        overlay.classList.remove('opacity-0');
+    }, 10);
+}
+
+function closeSuccessModal() {
+    const overlay = document.getElementById('success-modal-overlay');
+    overlay.classList.add('opacity-0');
+    setTimeout(() => {
+        overlay.classList.add('hidden');
+    }, 300);
+}
+
+function sendSuccessToWhatsApp() {
+    if (!currentOrderData) return;
+    const o = currentOrderData;
+    let itemsText = o.items.map(i => `• ${i.title} x ${i.quantity} = Rs. ${i.price * i.quantity}`).join('%0A');
+    let msg = `*Order Confirmation #${o.orderId}*%0A%0AName: ${o.name}%0APhone: ${o.phone}%0ACity: ${o.city}%0AAddress: ${o.address}%0A%0A*Items:*%0A${itemsText}%0A%0A*Total COD: Rs. ${o.total}*`;
+    window.open(`https://wa.me/923070016113?text=${msg}`, '_blank');
+}
+
+// Automatic WhatsApp Notifications to both owner numbers on every order
+function sendOwnerWhatsAppNotifications(order) {
+    const o = order;
+    
+    // Build items list
+    let itemsList = o.items.map(i => 
+        `• ${i.title}${i.size ? ' (' + i.size + ')' : ''} x${i.quantity} = Rs. ${(i.price * i.quantity).toLocaleString()}`
+    ).join('%0A');
+
+    // Build full order message
+    const msg = 
+        `🛒 *نیا آرڈر آگیا! - Desi Taste Land*%0A%0A` +
+        `*Order ID:* %23${o.orderId}%0A%0A` +
+        `*👤 Customer Details:*%0A` +
+        `Name: ${o.name}%0A` +
+        `Phone: ${o.phone}%0A` +
+        `City: ${o.city}%0A` +
+        `Address: ${o.address}%0A` +
+        `${o.notes ? 'Notes: ' + o.notes + '%0A' : ''}%0A` +
+        `*🛍️ Order Items:*%0A${itemsList}%0A%0A` +
+        `*💰 Payment:* ${o.payment}%0A` +
+        `*Grand Total: Rs. ${o.total.toLocaleString()}*%0A%0A` +
+        `⚡ Please confirm this order ASAP!`;
+
+    // Owner number 1: 03225512412
+    const url1 = `https://wa.me/923225512412?text=${msg}`;
+    // Owner number 2: +92 307 0016113  
+    const url2 = `https://wa.me/923070016113?text=${msg}`;
+
+    // Open both WhatsApp tabs with a small delay between them
+    const win1 = window.open(url1, '_blank');
+    setTimeout(() => {
+        const win2 = window.open(url2, '_blank');
+    }, 800);
+}
+
+// Scroll Sliders & Navigation
+function scrollSlider(id, offset) {
+    const el = document.getElementById(id);
+    if (el) el.scrollBy({ left: offset, behavior: 'smooth' });
+}
+
+function scrollToProducts(category) {
+    const el = document.getElementById('products');
+    if (el) el.scrollIntoView({ behavior: 'smooth' });
+    showToast(`Browsing ${category} products`);
+}
+
+function toggleFavorite(btn) {
+    const icon = btn.querySelector('.material-symbols-outlined');
+    if (icon) {
+        if (icon.style.color === 'red') {
+            icon.style.color = '';
+            showToast('Removed from favorites');
+        } else {
+            icon.style.color = 'red';
+            showToast('Saved to favorites!');
+        }
+    }
+}
+
+function toggleMobileMenu() {
+    const menu = document.getElementById('mobile-menu');
+    menu.classList.toggle('hidden');
+}
+
+function toggleSearchModal() {
+    const modal = document.getElementById('search-modal');
+    modal.classList.toggle('hidden');
+    if (!modal.classList.contains('hidden')) {
+        document.getElementById('search-input').focus();
+    }
+}
+
+function handleSearchFilter() {
+    const query = document.getElementById('search-input').value.toLowerCase();
+    const resultsContainer = document.getElementById('search-results');
+    
+    const products = [
+        { id: 'p-1', title: 'Artisanal Tea (Chai Patti)', price: 400, size: '200g' },
+        { id: 'p-2', title: 'Pure Olive Oil', price: 650, size: '112ml' },
+        { id: 'p-3', title: 'Wild Flower Honey', price: 900, size: '500g' },
+        { id: 'p-4', title: 'Pure Desi Ghee', price: 3200, size: '1kg' },
+        { id: 'p-5', title: 'Traditional Mixed Pickle', price: 700, size: '1kg' },
+        { id: 'p-6', title: 'Sidr Honey (Export Grade)', price: 8500, size: '1kg' },
+        { id: 'p-7', title: 'Pure Himalayan Shilajit', price: 1000, size: '1 Tola' },
+        { id: 'p-8', title: 'Pure Organic Talbina', price: 1300, size: '450g' }
+    ];
+
+    const filtered = products.filter(p => p.title.toLowerCase().includes(query));
+
+    if (filtered.length === 0) {
+        resultsContainer.innerHTML = `<p class="text-xs text-gray-400 py-4 text-center">No products found matching "${query}"</p>`;
+    } else {
+        resultsContainer.innerHTML = filtered.map(p => `
+            <div onclick="toggleSearchModal(); scrollToProducts('${p.title}');" class="p-3 hover:bg-gray-50 flex justify-between items-center cursor-pointer rounded-lg">
+                <span class="font-bold text-gray-800">${p.title} (${p.size})</span>
+                <span class="text-secondary font-bold">Rs. ${p.price}</span>
+            </div>
+        `).join('');
+    }
+}
+
+function handleContactSubmit(e) {
+    e.preventDefault();
+    showToast('Message sent! We will contact you shortly.');
+    e.target.reset();
+}
+
+function handleNewsletter(e) {
+    e.preventDefault();
+    showToast('Subscribed to Desi Taste Land newsletter!');
+    e.target.reset();
+}
+
+// Toast Notifications
+function showToast(message) {
+    const container = document.getElementById('toast-container');
+    const toast = document.createElement('div');
+    toast.className = 'toast-notification bg-primary text-white text-xs font-bold px-4 py-3 rounded-full shadow-2xl border border-secondary flex items-center gap-2 pointer-events-auto opacity-0 translate-y-2';
+    toast.innerHTML = `<span class="material-symbols-outlined text-secondary text-sm">check_circle</span> <span>${message}</span>`;
+    
+    container.appendChild(toast);
+    
+    setTimeout(() => {
+        toast.classList.remove('opacity-0', 'translate-y-2');
+    }, 10);
+
+    setTimeout(() => {
+        toast.classList.add('opacity-0', 'translate-y-2');
+        setTimeout(() => toast.remove(), 300);
+    }, 3000);
+}
+
+// ============================================================
+// SIDE MENU & ORDER CANCELLATION / HISTORY LOGIC
+// ============================================================
+let activeNoticeOrderIds = {};
+
+function openSideMenuDrawer() {
+    renderOrdersUI();
+    const overlay = document.getElementById('side-menu-drawer-overlay');
+    const content = document.getElementById('side-menu-drawer-content');
+    if (!overlay || !content) return;
+    overlay.classList.remove('hidden');
+    setTimeout(() => {
+        overlay.classList.remove('opacity-0');
+        content.classList.remove('-translate-x-full');
+    }, 10);
+}
+
+function closeSideMenuDrawer() {
+    const overlay = document.getElementById('side-menu-drawer-overlay');
+    const content = document.getElementById('side-menu-drawer-content');
+    if (!overlay || !content) return;
+    content.classList.add('-translate-x-full');
+    overlay.classList.add('opacity-0');
+    setTimeout(() => {
+        overlay.classList.add('hidden');
+    }, 300);
+}
+
+function switchOrdersTab(tab) {
+    const activeBtn = document.getElementById('tab-active-orders-btn');
+    const historyBtn = document.getElementById('tab-order-history-btn');
+    const activeView = document.getElementById('view-active-orders');
+    const historyView = document.getElementById('view-order-history');
+
+    if (tab === 'active') {
+        activeBtn.className = "flex-1 py-3 text-xs font-bold uppercase tracking-wider text-secondary border-b-2 border-secondary transition-all flex items-center justify-center gap-1.5";
+        historyBtn.className = "flex-1 py-3 text-xs font-bold uppercase tracking-wider text-gray-400 border-b-2 border-transparent hover:text-gray-600 transition-all flex items-center justify-center gap-1.5";
+        activeView.classList.remove('hidden');
+        historyView.classList.add('hidden');
+    } else {
+        historyBtn.className = "flex-1 py-3 text-xs font-bold uppercase tracking-wider text-secondary border-b-2 border-secondary transition-all flex items-center justify-center gap-1.5";
+        activeBtn.className = "flex-1 py-3 text-xs font-bold uppercase tracking-wider text-gray-400 border-b-2 border-transparent hover:text-gray-600 transition-all flex items-center justify-center gap-1.5";
+        historyView.classList.remove('hidden');
+        activeView.classList.add('hidden');
+    }
+}
+
+function handleCancelOrder(orderId) {
+    let orders = JSON.parse(localStorage.getItem('dtl_orders') || '[]');
+    const targetIndex = orders.findIndex(o => o.orderId === orderId);
+    
+    if (targetIndex === -1) return;
+    
+    const order = orders[targetIndex];
+    const elapsedMs = Date.now() - (order.timestamp || Date.now());
+    const threeHoursMs = 3 * 60 * 60 * 1000;
+
+    if (elapsedMs <= threeHoursMs) {
+        orders[targetIndex].status = 'Cancelled';
+        localStorage.setItem('dtl_orders', JSON.stringify(orders));
+        delete activeNoticeOrderIds[orderId];
+        showToast(`Order #${orderId} has been cancelled successfully`);
+        renderOrdersUI();
+    } else {
+        activeNoticeOrderIds[orderId] = true;
+        renderOrdersUI();
+    }
+}
+
+function renderOrdersUI() {
+    let orders = JSON.parse(localStorage.getItem('dtl_orders') || '[]');
+    const activeOrders = orders.filter(o => o.status !== 'Cancelled');
+    
+    const badge = document.getElementById('active-orders-count-badge');
+    if (badge) badge.innerText = activeOrders.length;
+
+    const activeContainer = document.getElementById('view-active-orders');
+    const historyContainer = document.getElementById('view-order-history');
+
+    // Render Active Orders
+    if (activeContainer) {
+        if (activeOrders.length === 0) {
+            activeContainer.innerHTML = `
+                <div class="text-center py-12 space-y-3">
+                    <span class="material-symbols-outlined text-5xl text-gray-300">local_shipping</span>
+                    <p class="text-gray-600 font-bold text-base">No Active Orders</p>
+                    <p class="text-xs text-gray-400">When you place an order, it will show up here.</p>
+                </div>
+            `;
+        } else {
+            activeContainer.innerHTML = activeOrders.map(order => {
+                const elapsedMs = Date.now() - (order.timestamp || Date.now());
+                const threeHoursMs = 3 * 60 * 60 * 1000;
+                const canCancel = elapsedMs <= threeHoursMs;
+                const remainingMins = Math.max(0, Math.floor((threeHoursMs - elapsedMs) / 60000));
+                const hLeft = Math.floor(remainingMins / 60);
+                const mLeft = remainingMins % 60;
+                const showNotice = activeNoticeOrderIds[order.orderId];
+
+                const itemsHtml = order.items.map(i => `
+                    <div class="flex justify-between text-xs py-1">
+                        <span class="text-gray-700 font-medium">${i.title} x${i.quantity}</span>
+                        <span class="font-bold text-gray-900">Rs. ${(i.price * i.quantity).toLocaleString()}</span>
+                    </div>
+                `).join('');
+
+                return `
+                    <div class="bg-white p-5 rounded-2xl border border-gray-200 shadow-sm space-y-4">
+                        <div class="flex justify-between items-start border-b pb-3">
+                            <div>
+                                <span class="font-mono font-bold text-xs bg-gray-100 px-2 py-1 rounded text-primary">#${order.orderId}</span>
+                                <p class="text-[11px] text-gray-500 mt-1">${order.createdAtFormatted || 'Recently placed'}</p>
+                            </div>
+                            <span class="bg-green-100 text-green-800 text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border border-green-200">
+                                Active Order
+                            </span>
+                        </div>
+
+                        <div class="bg-gray-50 p-3 rounded-xl divide-y divide-gray-200">
+                            ${itemsHtml}
+                            <div class="flex justify-between text-xs font-bold pt-2 text-primary">
+                                <span>Grand Total:</span>
+                                <span class="text-secondary">Rs. ${order.total.toLocaleString()}</span>
+                            </div>
+                        </div>
+
+                        <div class="text-xs text-gray-600 space-y-1">
+                            <p><strong>Deliver To:</strong> ${order.name} (${order.phone})</p>
+                            <p class="text-gray-500 text-[11px]">${order.address}, ${order.city}</p>
+                        </div>
+
+                        ${canCancel ? `
+                            <p class="text-[11px] text-amber-700 bg-amber-50 px-3 py-1.5 rounded-lg border border-amber-200 flex items-center gap-1">
+                                <span class="material-symbols-outlined text-sm">schedule</span>
+                                <span>Cancellation time left: <strong>${hLeft}h ${mLeft}m</strong></span>
+                            </p>
+                        ` : ''}
+
+                        ${showNotice ? `
+                            <div class="bg-red-50 border border-red-300 text-red-700 p-3 rounded-xl text-xs font-semibold text-center shadow-sm relative mb-2">
+                                <span class="material-symbols-outlined text-sm inline-block mr-1 align-sub">info</span>
+                                You can only cancel orders within 3 hours of placing.
+                            </div>
+                        ` : ''}
+
+                        <div class="pt-1">
+                            <button onclick="handleCancelOrder('${order.orderId}')" class="w-full py-2.5 border ${canCancel ? 'border-red-300 text-red-600 hover:bg-red-50' : 'border-gray-300 text-gray-500 hover:bg-gray-100'} rounded-xl font-bold text-xs uppercase tracking-wider transition-all flex items-center justify-center gap-1.5">
+                                <span class="material-symbols-outlined text-sm">cancel</span>
+                                <span>Cancel Order</span>
+                            </button>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+    }
+
+    // Render Order History
+    if (historyContainer) {
+        if (orders.length === 0) {
+            historyContainer.innerHTML = `
+                <div class="text-center py-12 space-y-3">
+                    <span class="material-symbols-outlined text-5xl text-gray-300">history</span>
+                    <p class="text-gray-600 font-bold text-base">No Order History</p>
+                    <p class="text-xs text-gray-400">All placed and cancelled orders will appear here.</p>
+                </div>
+            `;
+        } else {
+            historyContainer.innerHTML = orders.map(order => {
+                const isCancelled = order.status === 'Cancelled';
+                const itemsHtml = order.items.map(i => `
+                    <div class="flex justify-between text-xs py-1">
+                        <span class="text-gray-700 font-medium">${i.title} x${i.quantity}</span>
+                        <span class="font-bold text-gray-900">Rs. ${(i.price * i.quantity).toLocaleString()}</span>
+                    </div>
+                `).join('');
+
+                return `
+                    <div class="bg-white p-5 rounded-2xl border border-gray-200 shadow-sm space-y-4 ${isCancelled ? 'opacity-75 bg-gray-50/50' : ''}">
+                        <div class="flex justify-between items-start border-b pb-3">
+                            <div>
+                                <span class="font-mono font-bold text-xs bg-gray-100 px-2 py-1 rounded text-primary">#${order.orderId}</span>
+                                <p class="text-[11px] text-gray-500 mt-1">${order.createdAtFormatted || 'Recently placed'}</p>
+                            </div>
+                            <span class="${isCancelled ? 'bg-red-100 text-red-700 border-red-200' : 'bg-green-100 text-green-800 border-green-200'} text-[10px] uppercase font-bold tracking-wider px-3 py-1 rounded-full border">
+                                ${isCancelled ? '✕ Cancelled' : '✓ Active'}
+                            </span>
+                        </div>
+
+                        <div class="bg-gray-50 p-3 rounded-xl divide-y divide-gray-200">
+                            ${itemsHtml}
+                            <div class="flex justify-between text-xs font-bold pt-2 text-primary">
+                                <span>Grand Total:</span>
+                                <span class="${isCancelled ? 'line-through text-gray-400' : 'text-secondary'}">Rs. ${order.total.toLocaleString()}</span>
+                            </div>
+                        </div>
+
+                        <div class="text-xs text-gray-600">
+                            <p><strong>Customer:</strong> ${order.name} (${order.city})</p>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+    }
+}
+
+// Initial Call
+document.addEventListener('DOMContentLoaded', () => {
+    renderOrdersUI();
+    updateHeroSlider();
+    startHeroTimer();
+});
+
+// ============================================================
+// HERO CAROUSEL AUTO-PLAY SLIDER (4 Banners, 3 sec loop)
+// ============================================================
+let currentHeroIndex = 0;
+const totalHeroSlides = 4;
+let heroAutoplayTimer = null;
+
+function updateHeroSlider() {
+    const slider = document.getElementById('hero-slider');
+    const dots = document.querySelectorAll('.hero-dot');
+    if (slider) {
+        slider.style.transform = `translateX(-${currentHeroIndex * 100}%)`;
+    }
+    dots.forEach((dot, index) => {
+        if (index === currentHeroIndex) {
+            dot.className = "hero-dot w-6 h-3 rounded-full bg-secondary transition-all shadow-sm";
+        } else {
+            dot.className = "hero-dot w-3 h-3 rounded-full bg-white/40 hover:bg-white/70 transition-all shadow-sm";
+        }
+    });
+}
+
+function nextHeroSlide() {
+    currentHeroIndex = (currentHeroIndex + 1) % totalHeroSlides;
+    updateHeroSlider();
+    resetHeroTimer();
+}
+
+function prevHeroSlide() {
+    currentHeroIndex = (currentHeroIndex - 1 + totalHeroSlides) % totalHeroSlides;
+    updateHeroSlider();
+    resetHeroTimer();
+}
+
+function goToHeroSlide(index) {
+    currentHeroIndex = index;
+    updateHeroSlider();
+    resetHeroTimer();
+}
+
+function startHeroTimer() {
+    if (heroAutoplayTimer) clearInterval(heroAutoplayTimer);
+    heroAutoplayTimer = setInterval(() => {
+        currentHeroIndex = (currentHeroIndex + 1) % totalHeroSlides;
+        updateHeroSlider();
+    }, 3000);
+}
+
+function resetHeroTimer() {
+    if (heroAutoplayTimer) clearInterval(heroAutoplayTimer);
+    heroAutoplayTimer = setInterval(() => {
+        currentHeroIndex = (currentHeroIndex + 1) % totalHeroSlides;
+        updateHeroSlider();
+    }, 3000);
+}
+</script>
+
+</body>
+</html>
