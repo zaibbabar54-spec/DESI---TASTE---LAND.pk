@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://zaibbabar54-spec.github.io/DESI---TASTE---LAND.pk/sitemap.xml
